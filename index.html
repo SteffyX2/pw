@@ -51,7 +51,8 @@
 			videoSource[4]="css/files/switch5.mp4";
 			videoSource[5]="css/files/switch6.mp4";
 			var videoCount = videoSource.length;
-			//document.getElementById("player").setAttribute("src",videoSource[0]);
+			document.getElementById("player").setAttribute("src",videoSource[0]);
+			document.getElementById("player").play();
 			document.getElementById("player").addEventListener('ended',myHandler,false);
 			function myHandler()
 			{
