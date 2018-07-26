@@ -46,23 +46,19 @@
 			videoSource[2]="css/files/wickedwass3.mp4";
 			var videoCount = videoSource.length;
 			document.getElementById("player").setAttribute("src",videoSource[0]);
-			function videoPlay(videoNum)
-   		 	{
-				document.getElementById("player").setAttribute("src",videoSource[videoNum]);
-			      //document.getElementById("player").load(); 
-				document.getElementById("player").play();
-    			}
 			document.getElementById("player").addEventListener('ended',myHandler,false);
 			function myHandler()
 			{
 				if(i == (videoCount-1))
 				{
-					videoPlay(i);
+					document.getElementById("player").setAttribute("src",videoSource[i]);
+					document.getElementById("player").play();
 					i = 0;
 				}
 				else
 				{
-					videoPlay(i);
+					document.getElementById("player").setAttribute("src",videoSource[i]);
+					document.getElementById("player").play();
 					i++;
 				}
         			
