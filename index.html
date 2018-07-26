@@ -26,14 +26,47 @@
 			<a href="mailto:s@steffyx.pw"><b>Mail</b></a>
 		</div>
 			
-		<!-- VIDEO -->
+		<!-- VIDEO 
 		<video autoplay="" id="player" loop="">
 			<source src="/css/files/shutup2.webm" type="video/webm"> 
 			<script>
 		       		var video = document.currentScript.parentElement;
 				video.volume = 0.5
 			</script>
-		</video>
+		</video> -->
+	
+		<!-- MUSIC VIDEOS -->
+		<video id="player" autoplay="">
+ 	  	</video>
+   		<script>
+		      	var videoSource = new Array();
+			videoSource[0]='css/files/wickedwass1.mp4';
+			videoSource[1]='css/files/wickedwass2.mp4';
+			var videoCount = videoSource.length;
+			document.getElementById("player").setAttribute("src",videoSource[0]);
+			function videoPlay(videoNum)
+   		 	{
+				document.getElementById("player").setAttribute("src",videoSource[videoNum]);
+				document.getElementById("player").load();
+				document.getElementById("player").play();
+    			}
+			document.getElementById('player').addEventListener('ended',myHandler,false);
+			function myHandler()
+			{
+				i++;
+				if(i == (videoCount-1))
+				{
+					i = 0;
+					videoPlay(i);
+				}
+				else
+				{
+					videoPlay(i);
+				}
+        
+      			 }
+		</script>
+					
 			
 		<!-- VOLUME SLIDER -->
 		<input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>
@@ -51,6 +84,6 @@
 		<script charset="utf-8" src="js/textscramble.js"></script> 
 		<script src="/js/title.js"></script>
 		</div>
-		
+
 	</body>
 </html>
