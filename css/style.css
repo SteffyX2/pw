@@ -44,13 +44,10 @@ a, visited {
 }
 
 a:hover{
-    color: #af0d05;
+    color: #1e3ecc;
     text-decoration:none;
-}
-
-a:hover {
   	-webkit-stroke-width: 35px;
-  text-shadow: 2px 0px 50px white;
+    text-shadow: 20px 30px 50px black;
 }
  video {
     position: fixed;
