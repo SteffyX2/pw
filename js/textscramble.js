@@ -44,7 +44,7 @@ var TextScramble = function() {
             return this.chars[Math.floor(Math.random() * this.chars.length)]
         }, a
     }(),
-    phrases = ["Stefan"],
+    phrases = ["S"],
     el = document.querySelectorAll(".text")[0],
     fx = new TextScramble(el),
     counter = 0,
