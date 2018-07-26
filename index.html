@@ -34,6 +34,28 @@
 				video.volume = 0.5
 			</script>
 		</video> -->
+			
+		<!-- PRELOAD -->
+		<script>
+			var req = new XMLHttpRequest();
+			req.open('GET', 'switch2.mp4', true);
+			req.responseType = 'blob';
+			
+			req.onload = function()
+			{
+				if(this.status === 200) 
+				{
+					var videoBlob = this.response;
+					var vid = URL.createObjectURL(videoBlob);
+					video.src=vid;
+				}
+			}
+			req.onerror = function()
+			{
+					// Error
+			}
+			req.send();
+		</script>
 	
 		<!-- MUSIC VIDEOS -->
 		<video id="player" autoplay>
