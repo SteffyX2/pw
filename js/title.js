@@ -30,21 +30,21 @@ A();
 function A() {
 s++;
 if (s > 15) { s = 1;}
-if (s == 1)  { document.title = 'S '+T+' '; }
-if (s == 2)  { document.title = 'S '+T+' '; }
-if (s == 3)  { document.title = '  '+T+' '; }
-if (s == 4)  { document.title = '  '+T+' '; }
-if (s == 5)  { document.title = 'S '+T+' '; }
-if (s == 6)  { document.title = 'S '+T+' '; }
-if (s == 7)  { document.title = '  '+T+' '; }
-if (s == 8)  { document.title = '  '+T+' '; }
-if (s == 9)  { document.title = 'S '+T+' '; }
-if (s == 10) { document.title = 'S '+T+' '; }
-if (s == 11) { document.title = '  '+T+' '; }
-if (s == 12) { document.title = '  '+T+' '; }
-if (s == 13) { document.title = 'S '+T+' '; }
-if (s == 14) { document.title = 'S '+T+' '; }
-if (s == 15) { document.title = '  '+T+' '; }
+if (s == 1)  { document.title = '[S] '+T+' '; }
+if (s == 2)  { document.title = '[x] '+T+' '; }
+if (s == 3)  { document.title = '[S]  '+T+' '; }
+if (s == 4)  { document.title = '[x]  '+T+' '; }
+if (s == 5)  { document.title = '[S] '+T+' '; }
+if (s == 6)  { document.title = '[x] '+T+' '; }
+if (s == 7)  { document.title = '[S]  '+T+' '; }
+if (s == 8)  { document.title = '[x]  '+T+' '; }
+if (s == 9)  { document.title = '[S] '+T+' '; }
+if (s == 10) { document.title = '[x] '+T+' '; }
+if (s == 11) { document.title = '[S]  '+T+' '; }
+if (s == 12) { document.title = '[x]  '+T+' '; }
+if (s == 13) { document.title = '[S] '+T+' '; }
+if (s == 14) { document.title = '[x] '+T+' '; }
+if (s == 15) { document.title = '[S]  '+T+' '; }
 if (C < (15 * reps)) {
 sT = setTimeout("A()", speed);
 C++;
