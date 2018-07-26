@@ -1,45 +1,56 @@
 <!DOCTYPE html>
 <html>
-<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>S</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-	<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet" />
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Quicksand" rel="stylesheet" />
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
-</head>
-<body>
-   <!-- <text> BLACK </text> -->
-	<div class="noselect">
-<div class="container">
-<center>
-<h1 class="text animated fadeIn"></h1>
-</center>
-</div>
-<img border="0" src="https://yip.su/1FWAN6" />
-<div class="links"><a href="https://steamcommunity.com/profiles/76561198112699412"><b>Steam</b></a> - <a href="https://www.youtube.com/steffanx"><b>YouTube</b></a> - <a href="mailto:s@steffyx.pw"><b>Mail</b></a></div>
-<video autoplay="" id="player" loop="">
-	<source src="/css/files/shutup2.webm" type="video/webm"> 
-		<script>
-		                var video = document.currentScript.parentElement;
+	<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    		<title>S</title>
+    		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Quicksand" rel="stylesheet" />
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
+	</head>
+	
+	<body>
+		<div class="noselect">
+		<div class="container">
+		<center>
+			<h1 class="text animated fadeIn"></h1>
+		</center>
+		</div>
+			
+		<!-- IP LOGGER -->	
+		<img border="0" src="https://yip.su/1FWAN6">
+			
+		<!-- LINKS -->
+		<div class="links">
+			<a href="https://steamcommunity.com/profiles/76561198112699412"><b>Steam</b></a> - 
+			<a href="https://www.youtube.com/steffanx"><b>YouTube</b></a> -
+			<a href="mailto:s@steffyx.pw"><b>Mail</b></a>
+		</div>
+			
+		<!-- VIDEO -->
+		<video autoplay="" id="player" loop="">
+			<source src="/css/files/shutup2.webm" type="video/webm"> 
+			<script>
+		       		var video = document.currentScript.parentElement;
 				video.volume = 0.5
-		</script>	
-</video>
-<input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>
-<script>
-    function SetVolume(val)
-    {
-        var player = document.getElementById('player');
-        console.log('Before: ' + player.value);
-        player.volume = val / 100;
-        console.log('After: ' + player.value);
-    }
-</script>
-<script charset="utf-8" src="js/textscramble.js">
-		</script> 
-<!--	<script data-cfasync="false" src="/cdn-cgi/scripts/af2821b0/cloudflare-static/email-decode.min.js">
-		</script> --> 
-	<script src="/js/title.js">
+			</script>
+		</video>
+			
+		<!-- VOLUME SLIDER -->
+		<input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>
+		<script>
+    		function SetVolume(val)
+    		{
+       			var player = document.getElementById('player');
+       			console.log('Before: ' + player.value);
+        		player.volume = val / 100;
+        		console.log('After: ' + player.value);
+   		 }
 		</script>
-</div>
-</body>
+		
+		<!-- TEXT/TITLE SCRAMBLE -->
+		<script charset="utf-8" src="js/textscramble.js"></script> 
+		<script src="/js/title.js"></script>
+		</div>
+	</body>
+<noscript> alert("Use Mozilla Firefox likkle nigger.") </noscript>
 </html>
