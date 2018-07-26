@@ -19,8 +19,17 @@
 <div class="links"><a href="https://steamcommunity.com/profiles/76561198112699412"><b>Steam</b></a> - <a href="https://www.youtube.com/steffanx"><b>YouTube</b></a> - <a href="mailto:s@steffyx.pw"><b>Mail</b></a></div>
 <video autoplay="" id="player" loop=""><source src="/css/files/shutup.mp4" type="video/mp4" /> <script>
 		                var video = document.currentScript.parentElement;
+	</script></video>
 <input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>
-		</script></video>
+		<script>
+    function SetVolume(val)
+    {
+        var player = document.getElementById('video');
+        console.log('Before: ' + player.volume);
+        player.volume = val / 100;
+        console.log('After: ' + player.volume);
+    }
+</script>
 <script charset="utf-8" src="js/textscramble.js">
 		</script> <script data-cfasync="false" src="/cdn-cgi/scripts/af2821b0/cloudflare-static/email-decode.min.js">
 		</script> <script src="/js/title.js">
