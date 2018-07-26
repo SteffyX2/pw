@@ -46,8 +46,8 @@ a, visited {
 a:hover{
     color: #a80808;
     text-decoration:none;
-  	-webkit-stroke-width: 35px;
-    text-shadow: 20px 30px 50px white;
+  	-webkit-stroke-width: 85px;
+    text-shadow: 70px 0px 70px black;
 }
  video {
     position: fixed;
