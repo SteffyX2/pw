@@ -39,8 +39,6 @@
 		<video id="player">
 		</video>
    		<script>
-	    		var video = document.currentScript.parentElement;
-			video.volume = 0.5
 		      	var videoSource = new Array();
 			var i = 1;
 			videoSource[0]="css/files/switch1.mp4";
@@ -48,6 +46,7 @@
 			videoSource[2]="css/files/switch3.mp4";
 			var videoCount = videoSource.length;
 			document.getElementById("player").setAttribute("src",videoSource[0]);
+			document.getElementById("player").volume = 0.5;
 			document.getElementById("player").play();
 			document.getElementById("player").addEventListener('ended',myHandler,false);
 			function myHandler()
