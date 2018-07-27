@@ -39,6 +39,8 @@
 		<video id="player">
 		</video>
    		<script>
+	    		var video = document.currentScript.parentElement;
+			video.volume = 0.5
 		      	var videoSource = new Array();
 			var i = 1;
 			videoSource[0]="css/files/switch1.mp4";
