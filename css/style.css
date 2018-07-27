@@ -46,6 +46,10 @@ a, visited {
 a:hover{
     color: #a80808;
     text-decoration:none;
+
+}
+
+a:hover{
   	-webkit-stroke-width: 850px;
     text-shadow: 700px 0px 700px white;
 }
