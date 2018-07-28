@@ -1,6 +1,6 @@
 .container {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 25px;
+  font-size: 299px;
   opacity: 1;
   color: white;;
 }
@@ -25,13 +25,13 @@ opacity: 1;
 }
 
 h1 {
-  top: 35%;
+  top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
   font-size: 6em;
-  color: #fff;
-  text-shadow: 1.5px 1.5px 0px rgba(8,230,255,100), -1.5px -1.5px 0px rgba(255,0,0,100);
+  color: #700101;
+  opacity: 0.3;
 }
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
@@ -50,7 +50,7 @@ h1 {
   border-size: 2px;
   text-align: center;
   position: absolute;
-  top: 55%;
+  top: 2%;
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0.65;
