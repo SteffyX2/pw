@@ -10,11 +10,13 @@
    width:20%;
    height:20px; 
    left: 50%
-   opacity: 0.5;
-  
 }
 
-.mpcontroller:hover{
+#slider{
+  opacity: 0.4;
+}
+
+#slider:hover{
 opacity: 1;
 }
 
