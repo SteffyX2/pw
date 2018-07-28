@@ -34,6 +34,14 @@
 		<video id="player" autoplay>
 		</video>
    		<script>
+			videoSource[0]="css/files/same.mp4";
+			videoSource[1]="css/files/lostit.mp4";
+			videoSource[2]="css/files/steppa.mp4";
+			videoSource[3]="css/files/dejavu.mp4";	
+			videoSource[4]="css/files/switch.mp4";			
+			var videoCount = videoSource.length;
+			document.getElementById("player").setAttribute("src",videoSource[0]);
+			document.getElementById("player").play();
 			function SetVolume(val) 
 			{
        				var player = document.getElementById('player');
@@ -43,12 +51,6 @@
    		 	}
 		      	var videoSource = new Array();
 			var i = 1;
-			videoSource[0]="css/files/switch1.mp4";
-			videoSource[1]="css/files/switch2.mp4";
-			videoSource[2]="css/files/switch3.mp4";
-			var videoCount = videoSource.length;
-			document.getElementById("player").setAttribute("src",videoSource[0]);
-			document.getElementById("player").play();
 			document.getElementById("player").volume = 0;
 			document.getElementById("player").addEventListener('ended',myHandler,false);
 			function myHandler()
