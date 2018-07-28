@@ -42,7 +42,8 @@
 			var videoCount = videoSource.length;
 			document.getElementById("player").setAttribute("src",videoSource[0]);
 			document.getElementById("player").play();
-			document.getElemntById("player").muted = false;
+			var unmute = getElementById("player");
+			unmute.muted = false;
 			var i = 1;
 			document.getElementById("player").volume = 0.5;
 			function SetVolume(val) 
