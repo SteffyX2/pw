@@ -13,6 +13,8 @@
 }
 
 #slider{
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
   opacity: 0.4;
   -webkit-transition: .6s; /* 0.2 seconds transition on hover */
    transition: opacity .6s;
