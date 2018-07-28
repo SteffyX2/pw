@@ -30,7 +30,9 @@
 			 <input type="image" src="css/files/mutebutton.png" alt="Mute/Unmute" id="unmute"> -->	
 			
 		<!-- VOLUME SLIDER -->
-		<input id="slider" type="range" min="0" max="100" step="1" value="0" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"/>	
+		<div class="slidercontainer">
+		<input id="slider" type="range" min="0" max="100" step="1" value="0" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"/>
+		</div>
 
 		<!-- MUSIC -->
 		<video id="player" muted></video>
