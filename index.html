@@ -43,7 +43,14 @@
 			document.getElementById("player").setAttribute("src",videoSource[0]);
 			document.getElementById("player").play();
 			var unmute = document.getElementById("player");
-			unmute.muted = false;
+			if(unmute.muted)
+			{
+  				unmute.muted = false;
+  			} 
+			else 
+			{
+  				unmute.muted = true;
+ 			}
 			var i = 1;
 			document.getElementById("player").volume = 0.5;
 			function SetVolume(val) 
