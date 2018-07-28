@@ -9,13 +9,7 @@
 			document.getElementById("player").play();
 			var unmute = document.getElementById("player");
 			var i = 1;
-			document.getElementById("player").volume = 0.5;
-			function SetVolume(val) 
-			{
-       				var player = document.getElementById('player');
-				player.muted = false;
-        			player.volume = val / 100;
-   			}
+			document.getElementById("player").volume = 0;
 			document.getElementById("player").addEventListener('ended',myHandler,false);
 			function myHandler()
 			{
