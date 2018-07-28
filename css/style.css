@@ -4,8 +4,7 @@
   opacity: 1;
   color: white;;
 }
-
-.mpcontroller{
+#slider{
    align: left;
    position:absolute;
    bottom:0;
