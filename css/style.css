@@ -10,7 +10,12 @@
    width:20%;
    height:20px; 
    left: 50%
+   opacity: 0.5;
   
+}
+
+.mpcontroller:hover{
+opacity: 1;
 }
 
 h1 {
