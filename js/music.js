@@ -31,3 +31,4 @@
 					document.getElementById("player").play();
 					i++;
 				}  	
+			}
