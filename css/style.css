@@ -5,7 +5,7 @@
   color: white;;
 }
 
-#slider{
+.mpcontroller{
    align: left;
    position:absolute;
    bottom:0;
