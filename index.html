@@ -27,22 +27,14 @@
 		</div>
 			
 		<!-- MUTE BUTTON -->	
-		<!if chrome>
-			 <input type="image" src="css/files/mutebutton.png" alt="Mute/Unmute" id="unmute"> 
-		<![endif]>	
+			 <input type="image" src="css/files/mutebutton.png" alt="Mute/Unmute" id="unmute"> 	
 			
 		<!-- VOLUME SLIDER -->
 		<input id="vol-control" type="range" min="0" max="100" step="1" value="0.5" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>
 			
 
 		<!-- MUSIC VIDEOS -->
-		<!if chrome>
-			<video id="player" muted></video>
-		<![endif]>
-		
-		<!if firefox>
-			<video id="player"></video>
-		<![endif]>
+		<video id="player"></video>
    		<script>
 			var videoSource = new Array();
 			videoSource[0]="css/files/same.mp4";
