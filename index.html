@@ -29,9 +29,10 @@
 		<!-- MUTE BUTTON 	
 			 <input type="image" src="css/files/mutebutton.png" alt="Mute/Unmute" id="unmute"> -->	
 			
-		<!-- VOLUME SLIDER -->
+		<!-- MP CONTROLLER -->
 		<div class="mpcontroller">
-		<input id="slider" type="range" min="0" max="100" step="1" value="0" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"/>
+			<input id="slider" type="range" min="0" max="100" step="1" value="0" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"/>
+			<script src="mpcontroller.js"/>
 		</div>
 
 		<!-- MUSIC -->
