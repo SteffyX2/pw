@@ -8,7 +8,7 @@
    position:absolute;
    bottom:0;
    width:30%;
-   height:90px; 
+   height:20px; 
   
 }
 
@@ -99,11 +99,6 @@ a:hover{
 .range {
   -webkit-appearance: none;
   -moz-appearance: none;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 200px;
-  margin-top: 10px;
   transform: translate(-50%, -50%);
 }
 
