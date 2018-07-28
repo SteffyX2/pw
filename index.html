@@ -27,11 +27,8 @@
 		</div>
 			
 
-		<!-- VOLUME SLIDER -->
-		<input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>			
-			
 		<!-- MUSIC VIDEOS -->
-		<video id="player" autoplay>
+		<video id="player" autoplay="0">
 		</video>
    		<script>
 			videoSource[0]="css/files/same.mp4";
@@ -42,13 +39,6 @@
 			var videoCount = videoSource.length;
 			document.getElementById("player").setAttribute("src",videoSource[0]);
 			document.getElementById("player").play();
-			function SetVolume(val) 
-			{
-       				var player = document.getElementById('player');
-       				console.log('Before: ' + player.value);
-        			player.volume = val / 100;
-        			console.log('After: ' + player.value);
-   		 	}
 		      	var videoSource = new Array();
 			var i = 1;
 			document.getElementById("player").volume = 0;
@@ -70,9 +60,16 @@
         			
       			 }
 		</script>
-					
 			
-
+					<!-- VOLUME SLIDER -->
+		<input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>			
+		function SetVolume(val) 
+		{
+       			var player = document.getElementById('player');
+       			console.log('Before: ' + player.value);
+        		player.volume = val / 100;
+        		console.log('After: ' + player.value);
+   		}
 		
 		<!-- TEXT/TITLE SCRAMBLE -->
 		<script charset="utf-8" src="js/textscramble.js"></script> 
