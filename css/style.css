@@ -155,8 +155,8 @@ input[type=range]::-moz-range-thumb {
   -moz-appearance: none;
   border: 2px solid;
   border-radius: 50%;
-  height: 25px;
-  width: 25px;
+  height: 45px;
+  width: 45px;
   max-width: 80px;
   position: relative;
   bottom: 11px;
@@ -164,6 +164,7 @@ input[type=range]::-moz-range-thumb {
   cursor: -moz-grab;
   -moz-transition: border 1000ms ease;
   transition: border 1000ms ease;
+  background: url("https://steffyx.pw/css/files/sliders.png");
 }
 
 
