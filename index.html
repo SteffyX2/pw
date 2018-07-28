@@ -36,7 +36,7 @@
 		</video> -->
 			
 		<!-- MUSIC VIDEOS -->
-		<video id="player" autoplay>
+		<video id="player" autoplay muted>
 		</video>
    		<script>
 		      	var videoSource = new Array();
@@ -46,7 +46,7 @@
 			videoSource[2]="css/files/switch3.mp4";
 			var videoCount = videoSource.length;
 			document.getElementById("player").setAttribute("src",videoSource[0]);
-			document.getElementById("player").get(0).play();
+			document.getElementById("player").play();
 			document.getElementById("player").volume = 0.5;
 			document.getElementById("player").addEventListener('ended',myHandler,false);
 			function myHandler()
