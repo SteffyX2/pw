@@ -29,7 +29,6 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
-  font-size: 6em;
   color: #700101;
   opacity: 0.3;
 }
