@@ -138,13 +138,13 @@ input[type=range]::-moz-range-track {
 input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
   border: 2px solid;
-  border-radius: 50%;
+  border-radius: 30%;
   height: 25px;
   width: 25px;
   max-width: 80px;
   position: relative;
   bottom: 11px;
-  background-color: #1d1c25;
+  background-color: #ffffff00;
   cursor: pointer;
 
   -webkit-transition: border 1000ms ease;
@@ -152,19 +152,17 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 input[type=range]::-moz-range-thumb {
-  -moz-appearance: none;
-  border: 2px solid;
-  border-radius: 50%;
-  height: 45px;
-  width: 45px;
+  border-radius: 30%;
+  height: 25px;
+  width: 25px;
   max-width: 80px;
+  background-color:  #ffffff00;
+  opacity: 04;
   position: relative;
   bottom: 11px;
-  background-color: #1d1c25;
   cursor: pointer;
   -moz-transition: border 1000ms ease;
   transition: border 1000ms ease;
-  background: url("https://steffyx.pw/css/files/sliders.png");
 }
 
 
