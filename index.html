@@ -26,19 +26,21 @@
 			<a href="mailto:s@steffyx.pw"><b>Mail</b></a>
 		</div>
 			
-		<!-- VIDEO 
-		<video autoplay="" id="player" loop="">
-			<source src="/css/files/shutup2.webm" type="video/webm"> 
-			<script>
-		       		var video = document.currentScript.parentElement;
-				video.volume = 0.5
-			</script>
-		</video> -->
+
+		<!-- VOLUME SLIDER -->
+		<input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>			
 			
 		<!-- MUSIC VIDEOS -->
 		<video id="player" autoplay>
 		</video>
    		<script>
+			function SetVolume(val) 
+			{
+       				var player = document.getElementById('player');
+       				console.log('Before: ' + player.value);
+        			player.volume = val / 100;
+        			console.log('After: ' + player.value);
+   		 	}
 		      	var videoSource = new Array();
 			var i = 1;
 			videoSource[0]="css/files/switch1.mp4";
@@ -68,17 +70,7 @@
 		</script>
 					
 			
-		<!-- VOLUME SLIDER -->
-		<input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>
-		<script>
-    		function SetVolume(val)
-    		{
-       			var player = document.getElementById('player');
-       			console.log('Before: ' + player.value);
-        		player.volume = val / 100;
-        		console.log('After: ' + player.value);
-   		 }
-		</script>
+
 		
 		<!-- TEXT/TITLE SCRAMBLE -->
 		<script charset="utf-8" src="js/textscramble.js"></script> 
