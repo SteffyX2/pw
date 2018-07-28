@@ -25,8 +25,17 @@
 			<a href="https://www.youtube.com/steffanx"><b>YouTube</b></a> -
 			<a href="mailto:s@steffyx.pw"><b>Mail</b></a>
 		</div>
+				
+		<!-- VOLUME SLIDER -->
+		<input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>			
+		function SetVolume(val) 
+		{
+       			var player = document.getElementById('player');
+       			console.log('Before: ' + player.value);
+        		player.volume = val / 100;
+        		console.log('After: ' + player.value);
+   		}
 			
-
 		<!-- MUSIC VIDEOS -->
 		<video id="player" autoplay="0">
 		</video>
@@ -60,16 +69,6 @@
         			
       			 }
 		</script>
-			
-					<!-- VOLUME SLIDER -->
-		<input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>			
-		function SetVolume(val) 
-		{
-       			var player = document.getElementById('player');
-       			console.log('Before: ' + player.value);
-        		player.volume = val / 100;
-        		console.log('After: ' + player.value);
-   		}
 		
 		<!-- TEXT/TITLE SCRAMBLE -->
 		<script charset="utf-8" src="js/textscramble.js"></script> 
