@@ -102,7 +102,7 @@ a:hover{
   -moz-appearance: none;
   transform: translate(-50%, -50%);
   position: absolute;
-  width: 200px;
+  width: 400px;
 }
 
 input[type=range]::-webkit-slider-runnable-track {
@@ -153,11 +153,11 @@ input[type=range]::-webkit-slider-thumb {
 
 input[type=range]::-moz-range-thumb {
   border-radius: 30%;
+  border: 2px solid;
   height: 25px;
   width: 25px;
   max-width: 80px;
   background-color:  #ffffff00;
-  opacity: 04;
   position: relative;
   bottom: 11px;
   cursor: pointer;
