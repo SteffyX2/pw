@@ -39,6 +39,9 @@ h1 {
 }
 
 .footer {
+   color: white;
+   opacity: 0.65;
+   text-align: right;
    position:absolute;
    bottom:0;
    width:100%;
