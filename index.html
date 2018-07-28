@@ -27,10 +27,10 @@
 		</div>
 				
 		<!-- VOLUME SLIDER -->
-		<input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>
+		<input id="vol-control" type="range" min="0" max="100" step="1" value="0.5" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>
 			
 		<!-- MUSIC VIDEOS -->
-		<video id="player" muted>
+		<video id="player">
 		</video>
    		<script>
 			var videoSource = new Array();
@@ -43,14 +43,6 @@
 			document.getElementById("player").setAttribute("src",videoSource[0]);
 			document.getElementById("player").play();
 			var unmute = document.getElementById("player");
-			if(unmute.muted)
-			{
-  				unmute.muted = false;
-  			} 
-			else 
-			{
-  				unmute.muted = true;
- 			}
 			var i = 1;
 			document.getElementById("player").volume = 0.5;
 			function SetVolume(val) 
