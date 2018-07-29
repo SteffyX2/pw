@@ -6,6 +6,7 @@ function SetVolume(val)
    	}
 
 var inputRange = document.getElementsByClassName('range')[0],
+var texts = document.getElementsByClassName('text')[0]
     maxValue = 100, // the higher the smoother when dragging
     currValue, rafID;
 
@@ -18,31 +19,31 @@ inputRange.addEventListener('input', function() {
     //Change slide thumb color on way up
     if (this.value > 20) {
         inputRange.classList.add('ltpurple');
-        text.classList.add('ltpurple');
+        texts.classList.add('ltpurple');
     }
     if (this.value > 40) {
         inputRange.classList.add('purple');
-        text.classList.add('purple');
+        texts.classList.add('purple');
 
     }
     if (this.value > 60) {
         inputRange.classList.add('pink');
-	text.classList.add('pink');   
+	texts.classList.add('pink');   
     }
 
     //Change slide thumb color on way down
     if (this.value < 20) {
         inputRange.classList.remove('ltpurple');
-        text.classList.remove('ltpurple');
+        texts.classList.remove('ltpurple');
     
     }
     if (this.value < 40) {
         inputRange.classList.remove('purple');
-	text.classList.remove('purple');    
+	texts.classList.remove('purple');    
     }
     if (this.value < 60) {
         inputRange.classList.remove('pink');
-	text.classList.remove('pink');    
+	texts.classList.remove('pink');    
     }
 });
 
