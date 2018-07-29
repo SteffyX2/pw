@@ -5,7 +5,6 @@ function SetVolume(val)
         player.muted = false;
         player.volume = val / 100;
    	}
-}
 
 var inputRange=document.getElementsByClassName('range')[0];
 var texts=document.getElementsByClassName('text')[0];
