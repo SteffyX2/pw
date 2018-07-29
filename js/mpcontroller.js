@@ -1,13 +1,12 @@
-var player = document.getElementById('player');
-
 function SetVolume(val) 
 	{
+	var player = document.getElementById('player');
         player.muted = false;
         player.volume = val / 100;
    	}
-
 var inputRange=document.getElementsByClassName('range')[0];
 var texts=document.getElementsByClassName('text')[0];
+
 // move gradient
 inputRange.addEventListener('input', function() {
     if (this.value > 2) {
