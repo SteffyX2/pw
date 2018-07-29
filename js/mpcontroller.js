@@ -6,11 +6,10 @@ function SetVolume(val)
    	}
 
 
-var inputRange = document.GetElementsByClass('Range')[0],
+var inputRange = document.GetElementsByClassName('Range')[0],
     texts = document.GetElementsByClass('text')[0],
-    maxValue = 100, // the higher the smoother when dragging
-    speed = 5,
-    currValue, rafID;
+    maxValue = 100;
+  
  
 // set min/max value
 inputRange.min = 0;
