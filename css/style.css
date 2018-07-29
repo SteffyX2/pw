@@ -351,83 +351,257 @@ input[type=range]::-moz-range-thumb:active {
 }
 
 .text.step1{
-   color: rgb(59, 172, 227);
+color: rgb(9,167,190);
 }
 
 .text.step2{
-    color: rgb(58, 153, 228)
-
+color: rgb(8,158,189);
 }
 
 .text.step3{
-   color: rgb(58, 133, 229);
+color: rgb(8,150,189); 
 }
 
 .text.step4{
-   color: rgb(58, 112, 231);
-
+color: rgb(8,141,189); 
 }
 
 .text.step5{
-   color: rgb(57,91,232);
+color: rgb(8,133,188); 
 }
 
 .text.step6{
-   color: rgb(57,70,234);
+color: rgb(8,124,188); 
 }
 
 .text.step7{
-   color: rgb(66,57,235);
+color: rgb(8,116,188); 
 }
 
 .text.step8{
-   color: rgb(88,57,237);
+color: rgb(8,107,188); 
 }
 
 .text.step9{
-   color: rgb(110,56,238);
+color: rgb(8,99,187); 
 }
 
 .text.step10{
-   color: rgb(133,56,240);
+color: rgb(8,91,187); 
 }
 
 .text.step11{
-   color: rgb(156,56,241);
+color: rgb(8,82,187); 
 }
 
 .text.step12{
-   color: rgb(179,55,243);
+color: rgb(8,74,187); 
 }
 
 .text.step13{
-   color: rgb(203,55,244);
+color: rgb(8,66,186); 
 }
 
 .text.step14{
-   color: rgb(227,55,246);
+color: rgb(8,58,186); 
 }
 
 .text.step15{
-   color: rgb(247,54,242);
+color: rgb(8,49,186); 
 }
 
 .text.step16{
-   color: rgb(249,54,220);
+color: rgb(7,41,185); 
 }
 
 .text.step17{
-   color: rgb(250,54,197);
+color: rgb(7,33,185); 
 }
 
 .text.step18{
-   color: rgb(252,53,174);
+color: rgb(7,25,185); 
 }
 
 .text.step19{
-   color: rgb(253,53,151);
+color: rgb(7,17,185); 
 }
 
 .text.step20{
-   color: rgb(255,53,127);
+color: rgb(7,8,184); 
+}
+
+.text.step21{
+color: rgb(14,7,184); 
+}
+
+.text.step22{
+color: rgb(22,7,184); 
+}
+
+.text.step23{
+color: rgb(30,7,184); 
+}
+
+.text.step24{
+color: rgb(38,7,183); 
+}
+
+.text.step25{
+color: rgb(46,7,183); 
+}
+
+.text.step26{
+color: rgb(54,7,183); 
+}
+
+.text.step27{
+color: rgb(62,7,182); 
+}
+
+.text.step28{
+color: rgb(70,7,182); 
+}
+
+.text.step29{
+color: rgb(77,7,182); 
+}
+
+.text.step30{
+color: rgb(85,7,182); 
+}
+
+.text.step31{
+color: rgb(93,7,181); 
+}
+
+.text.step32{
+color: rgb(101,6,181); 
+}
+
+.text.step33{
+color: rgb(109,6,181); 
+}
+
+.text.step34{
+color: rgb(116,6,181); 
+}
+
+.text.step35{
+color: rgb(124,6,180); 
+}
+
+.text.step36{
+color: rgb(132,6,180); 
+}
+
+.text.step37{
+color: rgb(140,6,180); 
+}
+
+.text.step38{
+color: rgb(147,6,180); 
+}
+
+.text.step39{
+color: rgb(155,6,179); 
+}
+
+.text.step40{
+color: rgb(163,6,179); 
+}
+
+.text.step41{
+color: rgb(170,6,179); 
+}
+
+.text.step42{
+color: rgb(178,6,178);
+}
+
+.text.step43{
+color: rgb(178,6,171); 
+}
+
+.text.step44{
+color: rgb(178,6,163); 
+}
+
+.text.step45{
+color: rgb(178,6,155); 
+}
+.te
+xt.step46{
+color: rgb(177,6,147);
+}
+
+.text.step47{
+color: rgb(177,6,139); 
+}
+
+.text.step48{
+color: rgb(177,5,130); 
+}
+
+.text.step49{
+color: rgb(177,5,122); 
+}
+
+.text.step50{
+color: rgb(176,5,114); 
+}
+
+.text.step51{
+color: rgb(176,5,106); 
+}
+
+.text.step52{
+color: rgb(176,5,99); 
+}
+
+.text.step53{
+color: rgb(175,5,91); 
+}
+
+.text.step54{
+color: rgb(175,5,83); 
+}
+
+.text.step55{
+color: rgb(175,5,75); 
+}
+
+.text.step56{
+color: rgb(175,5,67); 
+}
+
+.text.step57{
+color: rgb(174,5,59); 
+}
+
+.text.step58{
+color: rgb(174,5,51); 
+}
+
+.text.step59{
+color: rgb(174,5,43); 
+}
+
+.text.step60{
+color: rgb(174,5,36); 
+}
+
+.text.step61{
+color: rgb(173,5,28); 
+}
+
+.text.step62{
+color: rgb(173,5,20); 
+}
+
+.text.step63{
+color: rgb(173,5,12); 
+}
+
+.text.step64{
+color: rgb(173,5,5); 
 }
