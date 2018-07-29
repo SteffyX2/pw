@@ -9,7 +9,7 @@
 }
 
 #steam{
-transition: 2s linear;
+transition: 1s linear;
 height: 70px;
 width: 70px;
 top: 24%;
@@ -33,7 +33,7 @@ opacity: 1;
 }
 
 #mail{
-transition: 2s linear;
+transition: 1s linear;
 height: 70px;
 width: 70px;
 position: absolute;
@@ -57,7 +57,7 @@ opacity: 1;
 }
 
 #youtube{
-transition: 2s linear;  
+transition: 1s linear;  
 height: 70px;
 width: 70px;
 position: absolute;
