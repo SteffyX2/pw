@@ -3,6 +3,22 @@
   font-size: 159px;
   opacity: 1;
 }
+
+#steam{
+  height: 100px;
+  width: 100px;
+}
+
+#mail{
+  height: 100px;
+  width:100px;
+}
+
+#youtube{
+  height: 100px;
+  width: 100px;
+}
+
 .mpcontroller{
    position:absolute;
    bottom:0;
