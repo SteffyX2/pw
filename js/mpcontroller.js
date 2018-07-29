@@ -10,191 +10,631 @@ var inputRange=document.getElementsByClassName('range')[0];
 var texts=document.getElementsByClassName('text')[0];
 // move gradient
 inputRange.addEventListener('input', function() {
-    if (this.value > 5) {
+    if (this.value > 2) {
         inputRange.classList.add('step2');
 	texts.classList.add('step2');   
     }
-    if (this.value > 10) {
+    if (this.value > 4) {
         inputRange.classList.add('step3');
 	texts.classList.add('step3');     
     }
-    if (this.value > 15) {
+    if (this.value > 5) {
         inputRange.classList.add('step4'); 
 	texts.classList.add('step4');     
     }
 	
-    if (this.value > 20) {
+    if (this.value > 7) {
         inputRange.classList.add('step5'); 
 	texts.classList.add('step5');     
     }
 	
-    if (this.value > 25) {
+    if (this.value > 9) {
         inputRange.classList.add('step6'); 
 	texts.classList.add('step6');     
     }
 	
-    if (this.value > 30) {
+    if (this.value > 11) {
         inputRange.classList.add('step7'); 
 	texts.classList.add('step7');     
     }
 	
-    if (this.value > 35) {
+    if (this.value > 13) {
         inputRange.classList.add('step8'); 
 	texts.classList.add('step8');     
     }
 	
-    if (this.value > 40) {
+    if (this.value > 15) {
         inputRange.classList.add('step9'); 
 	texts.classList.add('step9');     
     }
 	
-    if (this.value > 45) {
+    if (this.value > 17) {
         inputRange.classList.add('step10'); 
 	texts.classList.add('step10');     
     }
 	
-    if (this.value > 50) {
+    if (this.value > 18) {
         inputRange.classList.add('step11'); 
 	texts.classList.add('step11');     
     }
 	
-    if (this.value > 55) {
+    if (this.value > 20) {
         inputRange.classList.add('step12'); 
 	texts.classList.add('step12');     
     }
 	
-    if (this.value > 60) {
+    if (this.value > 22) {
         inputRange.classList.add('step13'); 
 	texts.classList.add('step13');     
     }
 	
-    if (this.value > 65) {
+    if (this.value > 23) {
         inputRange.classList.add('step14'); 
 	texts.classList.add('step14');     
     }
 	
-    if (this.value > 70) {
+    if (this.value > 24) {
         inputRange.classList.add('step15'); 
 	texts.classList.add('step15');     
     }
 	
-    if (this.value > 75) {
+    if (this.value > 25) {
         inputRange.classList.add('step16'); 
 	texts.classList.add('step16');     
     }
 	
-    if (this.value > 80) {
+    if (this.value > 27) {
         inputRange.classList.add('step17'); 
 	texts.classList.add('step17');     
     }
 	
-    if (this.value > 85) {
+    if (this.value > 29) {
         inputRange.classList.add('step18'); 
 	texts.classList.add('step18');     
     }
 	
-    if (this.value > 90) {
+    if (this.value > 31) {
         inputRange.classList.add('step19'); 
 	texts.classList.add('step19');     
     }
 	
-    if (this.value > 95) {
+    if (this.value > 33) {
         inputRange.classList.add('step20'); 
 	texts.classList.add('step20');     
     }
+	
+    if (this.value > 35) {
+        inputRange.classList.add('step21'); 
+	texts.classList.add('step21');     
+    }
+	
+    if (this.value > 37) {
+        inputRange.classList.add('step22'); 
+	texts.classList.add('step22');     
+    }
+	
+    if (this.value > 38) {
+        inputRange.classList.add('step23'); 
+	texts.classList.add('step23');     
+    }
+	
+    if (this.value > 40) {
+        inputRange.classList.add('step24'); 
+	texts.classList.add('step24');     
+    }
+	
+    if (this.value > 42) {
+        inputRange.classList.add('step25'); 
+	texts.classList.add('step25');     
+    }
+	
+    if (this.value > 43) {
+        inputRange.classList.add('step26'); 
+	texts.classList.add('step26');     
+    }
+	
+    if (this.value > 44) {
+        inputRange.classList.add('step27'); 
+	texts.classList.add('step27');     
+    }
+	
+    if (this.value > 45) {
+        inputRange.classList.add('step28'); 
+	texts.classList.add('step28');     
+    }
+	
+    if (this.value > 46) {
+        inputRange.classList.add('step29'); 
+	texts.classList.add('step29');     
+    }
+	
+    if (this.value > 47) {
+        inputRange.classList.add('step30'); 
+	texts.classList.add('step30');     
+    }
+	
+    if (this.value > 49) {
+        inputRange.classList.add('step31'); 
+	texts.classList.add('step31');     
+    }
+	
+    if (this.value > 50) {
+        inputRange.classList.add('step32'); 
+	texts.classList.add('step32');     
+    }
+	
+    if (this.value > 52) {
+        inputRange.classList.add('step33'); 
+	texts.classList.add('step33');     
+    }
+	
+    if (this.value > 54) {
+        inputRange.classList.add('step34'); 
+	texts.classList.add('step34');     
+    }
+	
+    if (this.value > 55) {
+        inputRange.classList.add('step35'); 
+	texts.classList.add('step35');     
+    }
+	
+    if (this.value > 57) {
+        inputRange.classList.add('step36'); 
+	texts.classList.add('step36');     
+    }
+	
+    if (this.value > 58) {
+        inputRange.classList.add('step37'); 
+	texts.classList.add('step37');     
+    }
+	
+    if (this.value > 60) {
+        inputRange.classList.add('step38'); 
+	texts.classList.add('step38');     
+    }
+	
+    if (this.value > 61) {
+        inputRange.classList.add('step39'); 
+	texts.classList.add('step39');     
+    }
+	
+    if (this.value > 63) {
+        inputRange.classList.add('step40'); 
+	texts.classList.add('step40');     
+    }
+	
+    if (this.value > 64) {
+        inputRange.classList.add('step41'); 
+	texts.classList.add('step41');     
+    }
+	
+    if (this.value > 65) {
+        inputRange.classList.add('step42'); 
+	texts.classList.add('step42');     
+    }
+	
+    if (this.value > 67) {
+        inputRange.classList.add('step43'); 
+	texts.classList.add('step43');     
+    }
+	
+    if (this.value > 69) {
+        inputRange.classList.add('step44'); 
+	texts.classList.add('step44');     
+    }
+	
+    if (this.value > 71) {
+        inputRange.classList.add('step45'); 
+	texts.classList.add('step45');     
+    }
+	
+    if (this.value > 72) {
+        inputRange.classList.add('step46'); 
+	texts.classList.add('step46');     
+    }
+	
+    if (this.value > 73) {
+        inputRange.classList.add('step47'); 
+	texts.classList.add('step47');     
+    }
+	
+    if (this.value > 75) {
+        inputRange.classList.add('step48'); 
+	texts.classList.add('step48');     
+    }
+	
+    if (this.value > 77) {
+        inputRange.classList.add('step49'); 
+	texts.classList.add('step49');     
+    }
+	
+    if (this.value > 79) {
+        inputRange.classList.add('step50'); 
+	texts.classList.add('step50');     
+    }
+	
+    if (this.value > 80) {
+        inputRange.classList.add('step51'); 
+	texts.classList.add('step51');     
+    }
+	
+    if (this.value > 81) {
+        inputRange.classList.add('step52'); 
+	texts.classList.add('step52');     
+    }
+	
+    if (this.value > 83) {
+        inputRange.classList.add('step53'); 
+	texts.classList.add('step53');     
+    }
+	
+    if (this.value > 85) {
+        inputRange.classList.add('step54'); 
+	texts.classList.add('step54');     
+    }
+	
+    if (this.value > 86) {
+        inputRange.classList.add('step55'); 
+	texts.classList.add('step55');     
+    }
+	
+    if (this.value > 88) {
+        inputRange.classList.add('step56'); 
+	texts.classList.add('step56');     
+    }
+	
+    if (this.value > 90) {
+        inputRange.classList.add('step57'); 
+	texts.classList.add('step57');     
+    }
+	
+    if (this.value > 92) {
+        inputRange.classList.add('step58'); 
+	texts.classList.add('step58');     
+    }
+	
+    if (this.value > 93) {
+        inputRange.classList.add('step59'); 
+	texts.classList.add('step59');     
+    }
+	
+    if (this.value > 95) {
+        inputRange.classList.add('step60'); 
+	texts.classList.add('step60');     
+    }
+	
+    if (this.value > 96) {
+        inputRange.classList.add('step61'); 
+	texts.classList.add('step61');     
+    }
+	
+    if (this.value > 98) {
+        inputRange.classList.add('step62'); 
+	texts.classList.add('step62');     
+    }
+	
+    if (this.value > 99) {
+        inputRange.classList.add('step63'); 
+	texts.classList.add('step63');     
+    }
+	
+    if (this.value > 100) {
+        inputRange.classList.add('step64'); 
+	texts.classList.add('step64');     
+    }
 
     //Change slide thumb color on way down
+    if (this.value < 2) {
+        inputRange.classList.add('step2');
+	texts.classList.add('step2');   
+    }
+    if (this.value < 4) {
+        inputRange.classList.add('step3');
+	texts.classList.add('step3');     
+    }
     if (this.value < 5) {
-        inputRange.classList.remove('step2');
-	texts.classList.remove('step2');   
+        inputRange.classList.add('step4'); 
+	texts.classList.add('step4');     
     }
-    if (this.value < 10) {
-        inputRange.classList.remove('step3');
-	texts.classList.remove('step3');     
+	
+    if (this.value < 7) {
+        inputRange.classList.add('step5'); 
+	texts.classList.add('step5');     
     }
+	
+    if (this.value < 9) {
+        inputRange.classList.add('step6'); 
+	texts.classList.add('step6');     
+    }
+	
+    if (this.value < 11) {
+        inputRange.classList.add('step7'); 
+	texts.classList.add('step7');     
+    }
+	
+    if (this.value < 13) {
+        inputRange.classList.add('step8'); 
+	texts.classList.add('step8');     
+    }
+	
     if (this.value < 15) {
-        inputRange.classList.remove('step4'); 
-	texts.classList.remove('step4');     
+        inputRange.classList.add('step9'); 
+	texts.classList.add('step9');     
+    }
+	
+    if (this.value < 17) {
+        inputRange.classList.add('step10'); 
+	texts.classList.add('step10');     
+    }
+	
+    if (this.value < 18) {
+        inputRange.classList.add('step11'); 
+	texts.classList.add('step11');     
     }
 	
     if (this.value < 20) {
-        inputRange.classList.remove('step5'); 
-	texts.classList.remove('step5');     
+        inputRange.classList.add('step12'); 
+	texts.classList.add('step12');     
+    }
+	
+    if (this.value < 22) {
+        inputRange.classList.add('step13'); 
+	texts.classList.add('step13');     
+    }
+	
+    if (this.value < 23) {
+        inputRange.classList.add('step14'); 
+	texts.classList.add('step14');     
+    }
+	
+    if (this.value < 24) {
+        inputRange.classList.add('step15'); 
+	texts.classList.add('step15');     
     }
 	
     if (this.value < 25) {
-        inputRange.classList.remove('step6'); 
-	texts.classList.remove('step6');     
+        inputRange.classList.add('step16'); 
+	texts.classList.add('step16');     
     }
 	
-    if (this.value < 30) {
-        inputRange.classList.remove('step7'); 
-	texts.classList.remove('step7');     
+    if (this.value < 27) {
+        inputRange.classList.add('step17'); 
+	texts.classList.add('step17');     
+    }
+	
+    if (this.value < 29) {
+        inputRange.classList.add('step18'); 
+	texts.classList.add('step18');     
+    }
+	
+    if (this.value < 31) {
+        inputRange.classList.add('step19'); 
+	texts.classList.add('step19');     
+    }
+	
+    if (this.value < 33) {
+        inputRange.classList.add('step20'); 
+	texts.classList.add('step20');     
     }
 	
     if (this.value < 35) {
-        inputRange.classList.remove('step8'); 
-	texts.classList.remove('step8');     
+        inputRange.classList.add('step21'); 
+	texts.classList.add('step21');     
+    }
+	
+    if (this.value < 37) {
+        inputRange.classList.add('step22'); 
+	texts.classList.add('step22');     
+    }
+	
+    if (this.value < 38) {
+        inputRange.classList.add('step23'); 
+	texts.classList.add('step23');     
     }
 	
     if (this.value < 40) {
-        inputRange.classList.remove('step9'); 
-	texts.classList.remove('step9');     
+        inputRange.classList.add('step24'); 
+	texts.classList.add('step24');     
+    }
+	
+    if (this.value < 42) {
+        inputRange.classList.add('step25'); 
+	texts.classList.add('step25');     
+    }
+	
+    if (this.value < 43) {
+        inputRange.classList.add('step26'); 
+	texts.classList.add('step26');     
+    }
+	
+    if (this.value < 44) {
+        inputRange.classList.add('step27'); 
+	texts.classList.add('step27');     
     }
 	
     if (this.value < 45) {
-        inputRange.classList.remove('step10'); 
-	texts.classList.remove('step10');     
+        inputRange.classList.add('step28'); 
+	texts.classList.add('step28');     
+    }
+	
+    if (this.value < 46) {
+        inputRange.classList.add('step29'); 
+	texts.classList.add('step29');     
+    }
+	
+    if (this.value < 47) {
+        inputRange.classList.add('step30'); 
+	texts.classList.add('step30');     
+    }
+	
+    if (this.value < 49) {
+        inputRange.classList.add('step31'); 
+	texts.classList.add('step31');     
     }
 	
     if (this.value < 50) {
-        inputRange.classList.remove('step11'); 
-	texts.classList.remove('step11');     
+        inputRange.classList.add('step32'); 
+	texts.classList.add('step32');     
+    }
+	
+    if (this.value < 52) {
+        inputRange.classList.add('step33'); 
+	texts.classList.add('step33');     
+    }
+	
+    if (this.value < 54) {
+        inputRange.classList.add('step34'); 
+	texts.classList.add('step34');     
     }
 	
     if (this.value < 55) {
-        inputRange.classList.remove('step12'); 
-	texts.classList.remove('step12');     
+        inputRange.classList.add('step35'); 
+	texts.classList.add('step35');     
+    }
+	
+    if (this.value < 57) {
+        inputRange.classList.add('step36'); 
+	texts.classList.add('step36');     
+    }
+	
+    if (this.value < 58) {
+        inputRange.classList.add('step37'); 
+	texts.classList.add('step37');     
     }
 	
     if (this.value < 60) {
-        inputRange.classList.remove('step13'); 
-	texts.classList.remove('step13');     
+        inputRange.classList.add('step38'); 
+	texts.classList.add('step38');     
+    }
+	
+    if (this.value < 61) {
+        inputRange.classList.add('step39'); 
+	texts.classList.add('step39');     
+    }
+	
+    if (this.value < 63) {
+        inputRange.classList.add('step40'); 
+	texts.classList.add('step40');     
+    }
+	
+    if (this.value < 64) {
+        inputRange.classList.add('step41'); 
+	texts.classList.add('step41');     
     }
 	
     if (this.value < 65) {
-        inputRange.classList.remove('step14'); 
-	texts.classList.remove('step14');     
+        inputRange.classList.add('step42'); 
+	texts.classList.add('step42');     
     }
 	
-    if (this.value < 70) {
-        inputRange.classList.remove('step15'); 
-	texts.classList.remove('step15');     
+    if (this.value < 67) {
+        inputRange.classList.add('step43'); 
+	texts.classList.add('step43');     
+    }
+	
+    if (this.value < 69) {
+        inputRange.classList.add('step44'); 
+	texts.classList.add('step44');     
+    }
+	
+    if (this.value < 71) {
+        inputRange.classList.add('step45'); 
+	texts.classList.add('step45');     
+    }
+	
+    if (this.value < 72) {
+        inputRange.classList.add('step46'); 
+	texts.classList.add('step46');     
+    }
+	
+    if (this.value < 73) {
+        inputRange.classList.add('step47'); 
+	texts.classList.add('step47');     
     }
 	
     if (this.value < 75) {
-        inputRange.classList.remove('step16'); 
-	texts.classList.remove('step16');     
+        inputRange.classList.add('step48'); 
+	texts.classList.add('step48');     
+    }
+	
+    if (this.value < 77) {
+        inputRange.classList.add('step49'); 
+	texts.classList.add('step49');     
+    }
+	
+    if (this.value < 79) {
+        inputRange.classList.add('step50'); 
+	texts.classList.add('step50');     
     }
 	
     if (this.value < 80) {
-        inputRange.classList.remove('step17'); 
-	texts.classList.remove('step17');     
+        inputRange.classList.add('step51'); 
+	texts.classList.add('step51');     
+    }
+	
+    if (this.value < 81) {
+        inputRange.classList.add('step52'); 
+	texts.classList.add('step52');     
+    }
+	
+    if (this.value < 83) {
+        inputRange.classList.add('step53'); 
+	texts.classList.add('step53');     
     }
 	
     if (this.value < 85) {
-        inputRange.classList.remove('step18'); 
-	texts.classList.remove('step18');     
+        inputRange.classList.add('step54'); 
+	texts.classList.add('step54');     
+    }
+	
+    if (this.value < 86) {
+        inputRange.classList.add('step55'); 
+	texts.classList.add('step55');     
+    }
+	
+    if (this.value < 88) {
+        inputRange.classList.add('step56'); 
+	texts.classList.add('step56');     
     }
 	
     if (this.value < 90) {
-        inputRange.classList.remove('step19'); 
-	texts.classList.remove('step19');     
+        inputRange.classList.add('step57'); 
+	texts.classList.add('step57');     
+    }
+	
+    if (this.value < 92) {
+        inputRange.classList.add('step58'); 
+	texts.classList.add('step58');     
+    }
+	
+    if (this.value < 93) {
+        inputRange.classList.add('step59'); 
+	texts.classList.add('step59');     
     }
 	
     if (this.value < 95) {
-        inputRange.classList.remove('step20'); 
-	texts.classList.remove('step20');     
+        inputRange.classList.add('step60'); 
+	texts.classList.add('step60');     
+    }
+	
+    if (this.value < 96) {
+        inputRange.classList.add('step61'); 
+	texts.classList.add('step61');     
+    }
+	
+    if (this.value < 98) {
+        inputRange.classList.add('step62'); 
+	texts.classList.add('step62');     
+    }
+	
+    if (this.value < 99) {
+        inputRange.classList.add('step63'); 
+	texts.classList.add('step63');     
+    }
+	
+    if (this.value < 100) {
+        inputRange.classList.add('step64'); 
+	texts.classList.add('step64');     
     }
 });
 
