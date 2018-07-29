@@ -10,6 +10,9 @@ width: 120px;
 top: 22%;
 position: absolute;
 left: 45%;
+border: 8px solid black;
+border-style: double;
+border-radius: 100%;
 }
 
 #mail{
@@ -18,6 +21,9 @@ width: 100px;
 position: absolute;
 top: 39.9%;
 left: 62%;
+border: 8px solid black;
+border-style: double;
+border-radius: 100%;
 }
 
 #youtube{
@@ -26,6 +32,9 @@ width: 100px;
 position: absolute;
 top: 40%;
 left: 27%;
+border: 8px solid black;
+border-style: double;
+border-radius: 100%;
 }
 
 .mpcontroller{
