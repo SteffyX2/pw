@@ -30,6 +30,7 @@ filter: blur(4px);
 }
 
 #mail{
+transition: 2s linear;
 height: 70px;
 width: 70px;
 position: absolute;
@@ -50,6 +51,7 @@ filter: blur(4px);
 }
 
 #youtube{
+transition: 2s linear;  
 height: 70px;
 width: 70px;
 position: absolute;
