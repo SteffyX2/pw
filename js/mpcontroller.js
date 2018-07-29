@@ -38,4 +38,37 @@ inputRange.addEventListener('input', function() {
     }
 });
 
+var text = document.getElementsByClassName('range')[0];
+    maxValue = 100; // the higher the smoother when dragging
+    currValue, rafID;
+
+// set min/max value
+text.min = 0;
+text.max = maxValue;
+
+// move gradient
+text.addEventListener('input', function() {
+    //Change slide thumb color on way up
+    if (this.value > 20) {
+        text.classList.add('ltpurple');
+    }
+    if (this.value > 40) {
+        text.classList.add('purple');
+    }
+    if (this.value > 60) {
+        text.classList.add('pink');
+    }
+
+    //Change slide thumb color on way down
+    if (this.value < 20) {
+        text.classList.remove('ltpurple');
+    }
+    if (this.value < 40) {
+        text.classList.remove('purple');
+    }
+    if (this.value < 60) {
+        text.classList.remove('pink');
+    }
+});
+
 //xx Eric Grucza
