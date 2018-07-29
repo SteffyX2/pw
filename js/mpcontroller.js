@@ -11,30 +11,24 @@ var inputRange=document.getElementsByClassName('range')[0];
 // move gradient
 inputRange.addEventListener('input', function() {
     if (this.value > 20) {
-        inputRange.classList.add('ltpurple');
-        texts.classList.add('ltpurple');	    
+        inputRange.classList.add('ltpurple');	    
     }
     if (this.value > 40) {
         inputRange.classList.add('purple');
-	texts.classList.add('ltpurple');
     }
     if (this.value > 60) {
         inputRange.classList.add('pink');  
-	texts.classList.add('ltpurple');
     }
 
     //Change slide thumb color on way down
     if (this.value < 20) {
         inputRange.classList.remove('ltpurple');
-     	texts.classList.add('ltpurple');
     }
     if (this.value < 40) {
         inputRange.classList.remove('purple'); 
-	texts.classList.add('ltpurple');    
     }
     if (this.value < 60) {
-        inputRange.classList.remove('pink');  
-	texts.classList.add('ltpurple');    
+        inputRange.classList.remove('pink');   
     }
 });
 
