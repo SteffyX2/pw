@@ -23,10 +23,10 @@ opacity: 0.7;
 }
 
 #steam:hover{
--webkit-transition: 2s linear;
--moz-transition: 2s -moz-linear;
--o-transition: 2s -o-linear;
-transition: 2s linear;
+-webkit-transition: 1s linear;
+-moz-transition: 1s -moz-linear;
+-o-transition: 1s -o-linear;
+transition: 1s linear;
 -webkit-filter: blur(4px); /* Safari 6.0 - 9.0 */
 filter: blur(4px); 
 opacity: 1;    
@@ -47,10 +47,10 @@ opacity: 0.7;
 }
 
 #mail:hover{
--webkit-transition: 2s linear;
--moz-transition: 2s -moz-linear;
--o-transition: 2s -o-linear;
-transition: 2s linear;
+-webkit-transition: 1s linear;
+-moz-transition: 1s -moz-linear;
+-o-transition: 1s -o-linear;
+transition: 1s linear;
 -webkit-filter: blur(4px); /* Safari 6.0 - 9.0 */
 filter: blur(4px); 
 opacity: 1;    
@@ -71,10 +71,10 @@ opacity: 0.7;
 }
 
 #youtube:hover{
--webkit-transition: 2s linear;
--moz-transition: 2s -moz-linear;
--o-transition: 2s -o-linear;
-transition: 2s linear;
+-webkit-transition: 1s linear;
+-moz-transition: 1s -moz-linear;
+-o-transition: 1s -o-linear;
+transition: 1s linear;
 -webkit-filter: blur(4px); /* Safari 6.0 - 9.0 */
 filter: blur(4px); 
 opacity: 1;  
