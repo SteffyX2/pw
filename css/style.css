@@ -5,18 +5,27 @@
 }
 
 #steam{
-  height: 100px;
-  width: 100px;
+height: 120px;
+width: 120px;
+top: 22%;
+position: absolute;
+left: 45%;
 }
 
 #mail{
-  height: 100px;
-  width:100px;
+height: 100px;
+width: 100px;
+position: absolute;
+top: 39.9%;
+left: 62%;
 }
 
 #youtube{
-  height: 100px;
-  width: 100px;
+height: 100px;
+width: 100px;
+position: absolute;
+top: 40%;
+left: 27%;
 }
 
 .mpcontroller{
