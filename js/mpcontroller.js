@@ -1,8 +1,6 @@
-var player = document.getElementById('player');
-if (browser.chrome==false)
-	player.muted = false;
 function SetVolume(val) 
 	{
+	var player = document.getElementById('player');
         player.muted = false;
         player.volume = 100 - (val / 100);
    	}
