@@ -8,6 +8,7 @@ function SetVolume(val)
 
 var inputRange = document.getElementsByClassName('range')[0],
     maxValue = 100,
+    currValue, rafID;
   
  
 // set min/max value
