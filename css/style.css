@@ -217,18 +217,18 @@ input[type=range]::-moz-range-thumb:active {
   cursor: pointer;
 }
 
-.text.blue::-moz-range-thumb {
+.text.blue{
    color: rgb(59,173,227);
 }
 
-.text.ltpurple::-moz-range-thumb {
+.text.ltpurple{
    color: rgb(87,111,230);
 }
 
-.text.purple::-moz-range-thumb {
+.text.purple{
    color: rgb(152,68,183);
 }
 
-.text.pink::-moz-range-thumb {
+.text.pink{
    color: rgb(255,53,127);
 }
