@@ -56,17 +56,7 @@ h1 {
                                   supported by Chrome and Opera */
 }
 .links {
-  font-family: 'Roboto', thin;
-  font-size: 25px;
-
-  border-color: white;
-  border-size: 2px;
   text-align: center;
-  position: absolute;
-  top: 2%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0.65;
 }
 
 .footer {
