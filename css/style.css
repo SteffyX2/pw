@@ -39,6 +39,15 @@ border-style: double;
 border-radius: 100%;
 }
 
+#mail:hover{
+-webkit-transition: 2s linear;
+-moz-transition: 2s -moz-linear;
+-o-transition: 2s -o-linear;
+transition: 2s linear;
+-webkit-filter: blur(4px); /* Safari 6.0 - 9.0 */
+filter: blur(4px); 
+}
+
 #youtube{
 height: 70px;
 width: 70px;
@@ -48,6 +57,15 @@ left: 39.9%;
 border: 8px solid black;
 border-style: double;
 border-radius: 100%;
+}
+
+#youtube:hover{
+-webkit-transition: 2s linear;
+-moz-transition: 2s -moz-linear;
+-o-transition: 2s -o-linear;
+transition: 2s linear;
+-webkit-filter: blur(4px); /* Safari 6.0 - 9.0 */
+filter: blur(4px); 
 }
 
 .mpcontroller{
