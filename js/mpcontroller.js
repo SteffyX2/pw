@@ -7,7 +7,7 @@ function SetVolume(val)
 
 
 var inputRange = document.getElementsByClassName('range')[0],
-    maxValue = 100;
+    maxValue = 100,
   
  
 // set min/max value
