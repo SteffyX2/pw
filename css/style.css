@@ -116,6 +116,7 @@ a:hover{
   width: 400px;
   left: 50%;
   bottom: 0;
+  transform: scaleX(-1);
 }
 
 input[type=range]::-webkit-slider-runnable-track {
