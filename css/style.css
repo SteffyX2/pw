@@ -13,9 +13,15 @@ width: 70px;
 top: 24%;
 position: absolute;
 left: 47.7%;
-border: 8px solid black;
+border: 0px solid black;
 border-style: double;
 border-radius: 100%;
+}
+
+#steam:hover{
+ border: 8px solid black;
+ -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+ filter: blur(5px); 
 }
 
 #mail{
