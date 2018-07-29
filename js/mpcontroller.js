@@ -16,25 +16,25 @@ inputRange.addEventListener('input', function() {
     }
     if (this.value > 40) {
         inputRange.classList.add('purple');
-	texts.classList.add('ltpurple');     
+	texts.classList.add('purple');     
     }
     if (this.value > 60) {
         inputRange.classList.add('pink'); 
-	texts.classList.add('ltpurple');     
+	texts.classList.add('pink');     
     }
 
     //Change slide thumb color on way down
     if (this.value < 20) {
         inputRange.classList.remove('ltpurple');
-	texts.classList.add('ltpurple');     
+	texts.classList.remove('ltpurple');     
     }
     if (this.value < 40) {
         inputRange.classList.remove('purple'); 
-	texts.classList.add('ltpurple');     
+	texts.classList.remove('purple');     
     }
     if (this.value < 60) {
         inputRange.classList.remove('pink');  
-	texts.classList.add('ltpurple');     
+	texts.classList.remove('pink');     
     }
 });
 
