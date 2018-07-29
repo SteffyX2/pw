@@ -178,38 +178,168 @@ input[type=range]::-moz-range-thumb {
   transition: border 1000ms ease;
 }
 
-
-
-.range.blue::-webkit-slider-thumb {
-   border-color: rgb(59,173,227);
+.range.step1::-webkit-slider-thumb{
+   color: rgb(59, 172, 227);
 }
 
-.range.ltpurple::-webkit-slider-thumb {
-   border-color: rgb(87,111,230);
+.range.step2::-webkit-slider-thumb{
+    color: rgb(58, 153, 228)
+
 }
 
-.range.purple::-webkit-slider-thumb {
-   border-color: rgb(152,68,183);
+.range.step3::-webkit-slider-thumb{
+   color: rgb(58, 133, 229);
 }
 
-.range.pink::-webkit-slider-thumb {
-   border-color: rgb(255,53,127);
+.range.step4::-webkit-slider-thumb{
+   color: rgb(58, 112, 231);
+
 }
 
-.range.blue::-moz-range-thumb {
-   border-color: rgb(59,173,227);
+.range.step5::-webkit-slider-thumb{
+   color: rgb(57,91,232);
 }
 
-.range.ltpurple::-moz-range-thumb {
-   border-color: rgb(87,111,230);
+.range.step6::-webkit-slider-thumb{
+   color: rgb(57,70,234);
 }
 
-.range.purple::-moz-range-thumb {
-   border-color: rgb(152,68,183);
+.range.step7::-webkit-slider-thumb{
+   color: rgb(66,57,235);
 }
 
-.range.pink::-moz-range-thumb {
-   border-color: rgb(255,53,127);
+.range.step8::-webkit-slider-thumb{
+   color: rgb(88,57,237);
+}
+
+.range.step9::-webkit-slider-thumb{
+   color: rgb(110,56,238);
+}
+
+.range.step10::-webkit-slider-thumb{
+   color: rgb(133,56,240);
+}
+
+.range.step11::-webkit-slider-thumb{
+   color: rgb(156,56,241);
+}
+
+.range.step12::-webkit-slider-thumb{
+   color: rgb(179,55,243);
+}
+
+.range.step13::-webkit-slider-thumb{
+   color: rgb(203,55,244);
+}
+
+.range.step14::-webkit-slider-thumb{
+   color: rgb(227,55,246);
+}
+
+.range.step15::-webkit-slider-thumb{
+   color: rgb(247,54,242);
+}
+
+.range.step16::-webkit-slider-thumb{
+   color: rgb(249,54,220);
+}
+
+.range.step17::-webkit-slider-thumb{
+   color: rgb(250,54,197);
+}
+
+.range.step18::-webkit-slider-thumb{
+   color: rgb(252,53,174);
+}
+
+.range.step19::-webkit-slider-thumb{
+   color: rgb(253,53,151);
+}
+
+.range.step20::-webkit-slider-thumb{
+   color: rgb(255,53,127);
+}
+
+.range.step1::-moz-range-thumb{
+   color: rgb(59, 172, 227);
+}
+
+.range.step2::-moz-range-thumb{
+    color: rgb(58, 153, 228)
+
+}
+
+.range.step3::-moz-range-thumb{
+   color: rgb(58, 133, 229);
+}
+
+.range.step4::-moz-range-thumb{
+   color: rgb(58, 112, 231);
+
+}
+
+.range.step5::-moz-range-thumb{
+   color: rgb(57,91,232);
+}
+
+.range.step6::-moz-range-thumb{
+   color: rgb(57,70,234);
+}
+
+.range.step7::-moz-range-thumb{
+   color: rgb(66,57,235);
+}
+
+.range.step8::-moz-range-thumb{
+   color: rgb(88,57,237);
+}
+
+.range.step9::-moz-range-thumb{
+   color: rgb(110,56,238);
+}
+
+.range.step10::-moz-range-thumb{
+   color: rgb(133,56,240);
+}
+
+.range.step11::-moz-range-thumb{
+   color: rgb(156,56,241);
+}
+
+.range.step12::-moz-range-thumb{
+   color: rgb(179,55,243);
+}
+
+.range.step13::-moz-range-thumb{
+   color: rgb(203,55,244);
+}
+
+.range.step14::-moz-range-thumb{
+   color: rgb(227,55,246);
+}
+
+.range.step15::-moz-range-thumb{
+   color: rgb(247,54,242);
+}
+
+.range.step16::-moz-range-thumb{
+   color: rgb(249,54,220);
+}
+
+.range.step17::-moz-range-thumb{
+   color: rgb(250,54,197);
+}
+
+.range.step18::-moz-range-thumb{
+   color: rgb(252,53,174);
+}
+
+.range.step19::-moz-range-thumb{
+   color: rgb(253,53,151);
+}
+
+.range.step20::-moz-range-thumb{
+   color: rgb(255,53,127);
 }
 
 input[type=range]::-webkit-slider-thumb:active {
@@ -220,18 +350,84 @@ input[type=range]::-moz-range-thumb:active {
   cursor: pointer;
 }
 
-.text.blue{
-   color: rgb(59,173,227);
+.text.step1{
+   color: rgb(59, 172, 227);
 }
 
-.text.ltpurple{
-   color: rgb(87,111,230);
+.text.step2{
+    color: rgb(58, 153, 228)
+
 }
 
-.text.purple{
-   color: rgb(152,68,183);
+.text.step3{
+   color: rgb(58, 133, 229);
 }
 
-.text.pink{
+.text.step4{
+   color: rgb(58, 112, 231);
+
+}
+
+.text.step5{
+   color: rgb(57,91,232);
+}
+
+.text.step6{
+   color: rgb(57,70,234);
+}
+
+.text.step7{
+   color: rgb(66,57,235);
+}
+
+.text.step8{
+   color: rgb(88,57,237);
+}
+
+.text.step9{
+   color: rgb(110,56,238);
+}
+
+.text.step10{
+   color: rgb(133,56,240);
+}
+
+.text.step11{
+   color: rgb(156,56,241);
+}
+
+.text.step12{
+   color: rgb(179,55,243);
+}
+
+.text.step13{
+   color: rgb(203,55,244);
+}
+
+.text.step14{
+   color: rgb(227,55,246);
+}
+
+.text.step15{
+   color: rgb(247,54,242);
+}
+
+.text.step16{
+   color: rgb(249,54,220);
+}
+
+.text.step17{
+   color: rgb(250,54,197);
+}
+
+.text.step18{
+   color: rgb(252,53,174);
+}
+
+.text.step19{
+   color: rgb(253,53,151);
+}
+
+.text.step20{
    color: rgb(255,53,127);
 }
