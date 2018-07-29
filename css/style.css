@@ -5,33 +5,33 @@
 }
 
 #steam{
-height: 120px;
-width: 120px;
-top: 22%;
+height: 70px;
+width: 70px;
+top: 24%;
 position: absolute;
-left: 45%;
+left: 47.7%;
 border: 8px solid black;
 border-style: double;
 border-radius: 100%;
 }
 
 #mail{
-height: 100px;
-width: 100px;
+height: 70px;
+width: 70px;
 position: absolute;
-top: 39.9%;
-left: 62%;
+top: 44%;
+left: 56%;
 border: 8px solid black;
 border-style: double;
 border-radius: 100%;
 }
 
 #youtube{
-height: 100px;
-width: 100px;
+height: 70px;
+width: 70px;
 position: absolute;
-top: 40%;
-left: 27%;
+top: 44%;
+left: 39%;
 border: 8px solid black;
 border-style: double;
 border-radius: 100%;
