@@ -6,7 +6,7 @@ function SetVolume(val)
    	}
 
 var inputRange = document.getElementsByClassName('range')[0],
-var texts = document.getElementsByClassName('text')[0]
+var texts = document.getElementsByClassName('text')[0],
     maxValue = 100, // the higher the smoother when dragging
     currValue, rafID;
 
