@@ -8,24 +8,24 @@
 }
 
 #steam{
+transition: 2s linear;
 height: 70px;
 width: 70px;
 top: 24%;
 position: absolute;
 left: 47.7%;
-border: 0px solid black;
+border: 8px solid black;
 border-style: double;
 border-radius: 100%;
 }
 
 #steam:hover{
--webkit-transition: 2s -webkit-filter linear;
--moz-transition: 2s -moz-filter linear;
--o-transition: 2s -o-filter linear;
-transition: 2s filter linear;
-border: 8px solid black;
--webkit-filter: blur(2px); /* Safari 6.0 - 9.0 */
-filter: blur(2px); 
+-webkit-transition: 2s linear;
+-moz-transition: 2s -moz-linear;
+-o-transition: 2s -o-linear;
+transition: 2s linear;
+-webkit-filter: blur(4px); /* Safari 6.0 - 9.0 */
+filter: blur(4px); 
 }
 
 #mail{
