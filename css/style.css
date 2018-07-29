@@ -121,7 +121,7 @@ a:hover{
 input[type=range]::-webkit-slider-runnable-track {
   -webkit-appearance: none;
   background: rgba(59,173,227,1);
-  background: -moz-linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+  background: -moz-linear-gradient(45deg, rgba(59, 173, 227) 0%, rgba(58, 153, 228) 5%, rgba(58, 133, 229) 10%, rgba(58, 112, 231) 15%, rgba(57,91,232) 20%, rgba(57,70,234) 25%, rgba(66,57,235) 30%, rgba(88,57,237) 35%, rgba(110,56,238) 40%, rgba(133,56,240) 45%, rgba(156,56,241) 50%, rgba(179,55,243) 55%, rgba(203,55,244) 60%, rgba(227,55,246) 65%, rgba(247,54,242) 70%, rgba(249,54,220) 75%, rgba(250,54,197) 80%, rgba(252,53,174) 85%, rgba(253,53,151)  90%, rgba(255,53,127) 100%;
   background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(59,173,227,1)), color-stop(25%, rgba(87,111,230,1)), color-stop(51%, rgba(152,68,183,1)), color-stop(100%, rgba(255,53,127,1)));
   background: -webkit-linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
   background: -o-linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
