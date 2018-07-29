@@ -6,7 +6,7 @@ function SetVolume(val)
    	}
 
 
-var inputRange = document.getElementsByClassName('Range')[0],
+var inputRange = document.getElementsByClassName('range')[0],
     texts = document.getElementsByClassName('text')[0],
     maxValue = 100;
   
