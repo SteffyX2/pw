@@ -116,7 +116,6 @@ a:hover{
   width: 400px;
   left: 50%;
   bottom: 0;
-  transform: scaleX(-1);
   height: 40px;
   left: 38%;
 }
