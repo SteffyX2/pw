@@ -114,6 +114,8 @@ a:hover{
   transform: translate(-50%, -50%);
   position: absolute;
   width: 400px;
+  left: 50%;
+  bottom: 0;
 }
 
 input[type=range]::-webkit-slider-runnable-track {
