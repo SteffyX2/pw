@@ -1,6 +1,6 @@
 .container {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 299px;
+  font-size: 199px;
   opacity: 1;
 }
 .mpcontroller{
@@ -24,7 +24,7 @@ opacity: 1;
 }
 
 h1 {
-  top: 15%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
