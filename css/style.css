@@ -58,7 +58,7 @@ h1 {
 .links {
   font-family: 'Roboto', thin;
   font-size: 25px;
-  padding: 10px 20px;
+
   border-color: white;
   border-size: 2px;
   text-align: center;
@@ -67,7 +67,6 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0.65;
-  color: white;
 }
 
 .footer {
@@ -133,6 +132,7 @@ a:hover{
   left: 50%;
   bottom: 0;
   height: 40px;
+  background: rgba(0,0,0,0);
 }
 
 input[type=range]::-webkit-slider-runnable-track {
