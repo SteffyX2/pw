@@ -318,7 +318,7 @@ inputRange.addEventListener('input', function() {
 	texts.classList.add('step63');     
     }
 	
-    if (this.value > 100) {
+    if (this.value == 100) {
         inputRange.classList.add('step64'); 
 	texts.classList.add('step64');     
     }
