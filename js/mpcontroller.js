@@ -6,7 +6,7 @@ function SetVolume(val)
         player.volume = val / 100;
    	}
 }
-else{
+else if(window.firefox){
 var player = document.getElementById('player');
 var slider = document.getElementById('slider');
 slider.value = 50;
