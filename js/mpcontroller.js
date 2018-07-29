@@ -1,10 +1,23 @@
+if(window.chrome){
 function SetVolume(val) 
 	{
 	var player = document.getElementById('player');
         player.muted = false;
         player.volume = val / 100;
    	}
-
+}
+else{
+var player = document.getElementById('player');
+var slider = document.getElementById('slider');
+slider.value = 50;
+player.muted = false;
+player.volume = 0.5;
+function SetVolume(val) 
+	{
+        player.volume = val / 100;
+   	}	
+	
+}
 
 var inputRange=document.getElementsByClassName('range')[0];
 var texts=document.getElementsByClassName('text')[0];
