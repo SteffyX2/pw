@@ -216,3 +216,19 @@ input[type=range]::-webkit-slider-thumb:active {
 input[type=range]::-moz-range-thumb:active {
   cursor: pointer;
 }
+
+.text.blue::-moz-range-thumb {
+   color: rgb(59,173,227);
+}
+
+.text.ltpurple::-moz-range-thumb {
+   color: rgb(87,111,230);
+}
+
+.text.purple::-moz-range-thumb {
+   color: rgb(152,68,183);
+}
+
+.text.pink::-moz-range-thumb {
+   color: rgb(255,53,127);
+}
