@@ -7,7 +7,7 @@ function SetVolume(val)
 
 
 var inputRange = document.GetElementsByClassName('Range')[0],
-    texts = document.GetElementsByClass('text')[0],
+    texts = document.GetElementsByClassName('text')[0],
     maxValue = 100;
   
  
