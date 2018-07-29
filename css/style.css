@@ -19,9 +19,13 @@ border-radius: 100%;
 }
 
 #steam:hover{
- border: 8px solid black;
- -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
- filter: blur(5px); 
+-webkit-transition: 2s -webkit-filter linear;
+-moz-transition: 2s -moz-filter linear;
+-o-transition: 2s -o-filter linear;
+transition: 2s filter linear;
+border: 8px solid black;
+-webkit-filter: blur(2px); /* Safari 6.0 - 9.0 */
+filter: blur(2px); 
 }
 
 #mail{
