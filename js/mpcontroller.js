@@ -5,9 +5,11 @@ function SetVolume(val)
         player.volume = val / 100;
    	}
 
-var inputRange = document.getElementsByClassName('range')[0],
-    maxValue = 100, // the higher the smoother when dragging
 
+var inputRange = document.GetElementsByClass('Range')[0],
+    maxValue = 100;
+
+ 
 // set min/max value
 inputRange.min = 0;
 inputRange.max = maxValue;
