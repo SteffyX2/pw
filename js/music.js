@@ -19,7 +19,7 @@
 					j=0;
 				}
 				else if(i==0 || j==0)
-					i=videoCount-1;	
+					i--;	
 				document.getElementById("player").setAttribute("src",videoSource[i]);
 				document.getElementById("player").play();
 				
