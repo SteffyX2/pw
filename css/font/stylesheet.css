@@ -4,12 +4,8 @@
 
 @font-face {
     font-family: 'float_the_boatregular';
-    src: url('float_the_boat-webfont.eot');
-    src: url('float_the_boat-webfont.eot?#iefix') format('embedded-opentype'),
-         url('float_the_boat-webfont.woff2') format('woff2'),
-         url('float_the_boat-webfont.woff') format('woff'),
-         url('float_the_boat-webfont.ttf') format('truetype'),
-         url('float_the_boat-webfont.svg#float_the_boatregular') format('svg');
+    src: url('float_the_boat.woff2') format('woff2'),
+         url('float_the_boat.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
