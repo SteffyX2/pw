@@ -8,7 +8,7 @@
 			document.getElementById("player").setAttribute("src",videoSource[0]);
 			document.getElementById("player").play();
 			var unmute = document.getElementById("player");
-			var i = 1;
+			var i = 0;
 			document.getElementById("player").volume = 0;
 			document.getElementById("prev").addEventListener('click',prevf);
 			function prevf(){
@@ -33,8 +33,8 @@
 				}
 				else
 				{
+					i++;
 					document.getElementById("player").setAttribute("src",videoSource[i]);
 					document.getElementById("player").play();
-					i++;
 				}  	
 			}
