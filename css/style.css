@@ -1,12 +1,3 @@
-@font-face {
-font-family: "Float The Boat";
-src: url("css/font/float_the_boat-webfont.eot");
-src:
-url("css/font/float-the-boat-webfont.woff") format("woff"),
-url("css/font/float-the-boat.otf") format("opentype"),
-url("css/font/float_the_boat-webfont.svg#float_the_boat-webfont") format("svg");
-}
-
 .container {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 159px;
