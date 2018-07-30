@@ -18,8 +18,10 @@
 					i=videoCount-2;
 					j=0;
 				}
-				else if(i==0 || j==0)
-					i--;	
+				else if(i==0)
+					i=videoCount-1;
+				else if(j==0)
+					i--;
 				document.getElementById("player").setAttribute("src",videoSource[i]);
 				document.getElementById("player").play();
 				
