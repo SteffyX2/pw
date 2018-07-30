@@ -10,15 +10,14 @@
 			var unmute = document.getElementById("player");
 			var i = 1;
 			document.getElementById("player").volume = 0;
-			var prev=document.getElementById('prev');
-			var next=document.getElementById('next');
-			document.getElementById("prev").addEventListener('click',prev(){
+			document.getElementById("prev").addEventListener('click',prevf);
+			function prevf(){
 				i=i-1;
 				document.getElementById("player").stop();
 				document.getElementById("player").setAttribute("src",videoSource[i]);
 				document.getElementById("player").play();		
-				});
-				document.getElementById("player").addEventListener('ended',myHandler,false);
+				}
+			document.getElementById("player").addEventListener('ended',myHandler,false);
 			function myHandler()
 			{
 				if(i == (videoCount-1))
