@@ -1,9 +1,4 @@
-@font-face{
-font-family: 'Float The Boat';
-  url('css/font/float_the_boat-webfont.woff2') format('woff2'), 
-  url('css/font/float_the_boat-webfont.woff') format('woff'), 
-  url('css/font/float_the_boat-webfont.ttf') format('truetype'), 
-}
+@font-face { font-family: Float; src: url('float-the-boat-webfont.ttf'); } 
 
 .container {
   font-family: 'Josefin Sans', sans-serif;
@@ -138,7 +133,7 @@ h1 {
    bottom:0;
    width:99.4%;
    height:45px; 
-   font-family: 'Float The Boat';
+   font-family: Float
 }
 
  video {
