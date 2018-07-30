@@ -10,7 +10,7 @@ text-shadow: 0px 0px 30px white,0px 0px 30px white,0px 0px 30px white,0px 0px 10
 }
 
 #steam{
-transition: 1s linear;
+transition: 0.5s linear;
 height: 70px;
 width: 70px;
 top: 24%;
@@ -30,11 +30,12 @@ opacity: 0.7;
 transition: 1s linear;
 -webkit-filter: blur(3px); /* Safari 6.0 - 9.0 */
 filter: blur(3px) brightness(25%); 
-opacity: 1;    
+opacity: 1;   
+transform: rotate(360deg);
 }
 
 #mail{
-transition: 1s linear;
+transition: 0.5s linear;
 height: 70px;
 width: 70px;
 position: absolute;
@@ -55,10 +56,11 @@ transition: 1s linear;
 -webkit-filter: blur(3px); /* Safari 6.0 - 9.0 */
 filter: blur(3px) brightness(25%); 
 opacity: 1;    
+transform: rotate(360deg);  
 }
 
 #youtube{
-transition: 1s linear;  
+transition: 0.5s linear;  
 height: 70px;
 width: 70px;
 position: absolute;
@@ -68,7 +70,7 @@ border: 9px solid #e0d9d9;
 border-style: double;
 border-radius: 100%;
 filter: blur(1px) brightness(100%) drop-shadow(1px 1px 6px beige);
-opacity: 0.7;  
+opacity: 0.7;   
 }
 
 #youtube:hover{
@@ -78,7 +80,8 @@ opacity: 0.7;
 transition: 1s linear;
 -webkit-filter: blur(3px); /* Safari 6.0 - 9.0 */
 filter: blur(3px) brightness(25%); 
-opacity: 1;  
+opacity: 1; 
+transform: rotate(360deg); 
 }
 
 .mpcontroller{
