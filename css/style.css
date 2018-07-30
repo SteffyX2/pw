@@ -11,20 +11,52 @@ text-shadow: 0px 0px 30px white,0px 0px 30px white,0px 0px 30px white,0px 0px 10
 
 #prev
 {
+  transition: 0.2s linear;
   left: 37%;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   top: 93%;
   position: absolute;
+  border: 9px solid #e0d9d9;
+  border-style: double;
+  border-radius: 100%;
+  filter: blur(1px) brightness(100%)   drop-shadow(1px 1px 6px beige);
+  opacity: 0.7;
+}
+
+#prev:hover{
+-webkit-transition: 0.5s linear;
+-moz-transition: 0.5s -moz-linear;
+-o-transition: 0.5s -o-linear;
+transition: 0.5s linear;
+-webkit-filter: blur(3px); /* Safari 6.0 - 9.0 */
+filter: blur(3px) brightness(0%); 
+opacity: 1;   
 }
 
 #next
 {
-  left: 61.4%;
-  width: 50px;
-  height: 50px;
+  transition: 0.2s linear;
+  left: 37%;
+  width: 40px;
+  height: 40px;
   top: 93%;
   position: absolute;
+  border: 9px solid #e0d9d9;
+  border-style: double;
+  border-radius: 100%;
+  filter: blur(1px) brightness(100%)   drop-shadow(1px 1px 6px beige);
+  opacity: 0.7;
+}
+
+#next:hover{
+-webkit-transition: 0.5s linear;
+-moz-transition: 0.5s -moz-linear;
+-o-transition: 0.5s -o-linear;
+transition: 0.5s linear;
+-webkit-filter: blur(3px); /* Safari 6.0 - 9.0 */
+filter: blur(3px) brightness(0%); 
+opacity: 1;   
 }
 
 #steam{
