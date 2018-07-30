@@ -12,7 +12,14 @@
 			document.getElementById("player").volume = 0;
 			document.getElementById("prev").addEventListener('click',prevf);
 			function prevf(){
-				i=i-1;
+				i--;
+				document.getElementById("player").stop();
+				document.getElementById("player").setAttribute("src",videoSource[i]);
+				document.getElementById("player").play();		
+				}
+			document.getElementById("next").addEventListener('click',nextf);
+			function nextf(){
+				i++;
 				document.getElementById("player").stop();
 				document.getElementById("player").setAttribute("src",videoSource[i]);
 				document.getElementById("player").play();		
