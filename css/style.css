@@ -12,9 +12,9 @@ text-shadow: 0px 0px 30px white,0px 0px 30px white,0px 0px 30px white,0px 0px 10
 #prev
 {
   transition: 0.2s linear;
-  left: 37%;
-  width: 40px;
-  height: 40px;
+  left: 37.1%;
+  width: 30px;
+  height: 30px;
   top: 93%;
   position: absolute;
   border: 9px solid #e0d9d9;
@@ -38,8 +38,8 @@ opacity: 1;
 {
   transition: 0.2s linear;
   left: 61.4%;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   top: 93%;
   position: absolute;
   border: 9px solid #e0d9d9;
