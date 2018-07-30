@@ -28,6 +28,10 @@
 		<!-- MP CONTROLLER --> 
 			<input id="slider" type="range" min="0" max="100" step="1" value="0" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)" class="range step1"/>
 			<script src="js/mpcontroller.js"></script>
+			<div class="skip">
+				<a><img id="next" type="image" src="css/files/next.png"/></a>
+				<a><img id="prev" type="image" src="css/files/prev.png"/></a>
+			</div>
 		<!-- MUSIC -->
 		<video id="player" muted></video>
 		<script src="js/music.js"></script>
