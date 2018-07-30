@@ -22,7 +22,7 @@
 				}
 			document.getElementById("next").addEventListener('click',nextf);
 			function nextf(){
-				if(i>videoCount-1)
+				if(i>=videoCount-1)
 					i=0;
 				else
 					i++;
