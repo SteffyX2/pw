@@ -1,3 +1,14 @@
+font-family: 'Float The Boat';
+    src: url('css/font/float_the_boat-webfont.eot');
+    src: url('css/font/float_the_boat-webfont.eot?#iefix') format('embedded-opentype'),
+         url('css/font/float_the_boat-webfont.woff2') format('woff2'),
+         url('css/font/float_the_boat-webfont.woff') format('woff'),
+         url('css/font/float_the_boat-webfont.ttf') format('truetype'),
+         url('css/font/float_the_boat-webfont.svg#float_the_boatregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .container {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 159px;
