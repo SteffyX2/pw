@@ -1,9 +1,8 @@
 @font-face{
 font-family: 'Float The Boat';
-    font-weight: normal;
-    font-style: normal;
-    src: url('css/font/float_the_boat-webfont.ttf') format('truetype'),
-    url('css/font/float_the_boat-webfont.woff') format('woff'),
+  url('css/font/float_the_boat-webfont.woff2') format('woff2'), 
+  url('css/font/float_the_boat-webfont.woff') format('woff'), 
+  url('css/font/float_the_boat-webfont.ttf') format('truetype'), 
 }
 
 .container {
