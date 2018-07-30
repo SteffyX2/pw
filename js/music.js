@@ -12,13 +12,20 @@
 			document.getElementById("player").volume = 0;
 			document.getElementById("prev").addEventListener('click',prevf);
 			function prevf(){
-				i--;
+				if(i==0)
+					i=videoCount;
+				else
+					i--;	
 				document.getElementById("player").setAttribute("src",videoSource[i]);
-				document.getElementById("player").play();		
+				document.getElementById("player").play();
+				
 				}
 			document.getElementById("next").addEventListener('click',nextf);
 			function nextf(){
-				i++;
+				if(i>videoCount)
+					i=0;
+				else
+					i++;
 				document.getElementById("player").setAttribute("src",videoSource[i]);
 				document.getElementById("player").play();		
 				}
