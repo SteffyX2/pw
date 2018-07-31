@@ -10,6 +10,13 @@
 			var unmute = document.getElementById("player");
 			var i = 0;
 			document.getElementById("player").volume = 0.5;
+			document.getElementById("mute").addEventListener('click',mutef);
+			function mutef(){
+			if(unmute.muted)
+				unmute.muted = false;
+			else
+				unmute.muted = true;
+			}
 			document.getElementById("prev").addEventListener('click',prevf);
 			function prevf(){
 				if(i==0)
