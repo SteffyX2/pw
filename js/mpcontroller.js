@@ -1,8 +1,14 @@
 function SetVolume(val) 
 	{
+  	var image = document.getElementById('mute');
 	var player = document.getElementById('player');
         player.muted = false;
         player.volume = val / 100;
+	if(player.volume==0)
+		image.src = "css/files/mute.png";
+	else
+		image.src= "css/files/unmute.png";
+		
    	}
 var inputRange=document.getElementsByClassName('range')[0];
 var texts=document.getElementsByClassName('text')[0];
