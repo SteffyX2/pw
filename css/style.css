@@ -2,11 +2,7 @@
 
 .container {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 159px;
-  opacity: 1;
--webkit-text-stroke-width: 0px;
--webkit-text-stroke-color: white;
-text-shadow: 0px 0px 30px white,0px 0px 30px white,0px 0px 30px white,0px 0px 10px #553300,0px 0px 10px #553300;
+  font-size: 550%;
 }
 
 #prev
@@ -160,11 +156,13 @@ filter: blur(1px) brightness(100%)   drop-shadow(1px 1px 9px beige);
 }
 
 h1 {
-  top: 27%;
+  top: 32%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(2deg);
   position: absolute;
-  opacity: 0.3;
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 0px 0px 30px white,0px 0px 30px white,0px 0px 30px white,0px 0px 10px #553300,0px 0px 10px #553300;
 }
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
