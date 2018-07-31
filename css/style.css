@@ -7,7 +7,7 @@
 
 #mute{
   transition: 0.2s linear;
-  left: 30.4%;
+  left: 50%;
   width: 30px;
   height: 30px;
   top: 93%;
@@ -32,7 +32,7 @@ opacity: 1;
 #prev
 {
   transition: 0.2s linear;
-  left: 36.4%;
+  left: 47%;
   width: 30px;
   height: 30px;
   top: 93%;
@@ -57,7 +57,7 @@ opacity: 1;
 #next
 {
   transition: 0.2s linear;
-  left: 62.4%;
+  left: 53%;
   width: 30px;
   height: 30px;
   top: 93%;
@@ -248,7 +248,7 @@ h1 {
   width: 400px;
   left: 50%;
   bottom: 0;
-  height: 40px;
+  height: 100px;
   background: rgba(0,0,0,0);
 }
 
