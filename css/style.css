@@ -154,14 +154,6 @@ opacity: 1;
 transform: rotate(360deg); 
 }
 
-.mpcontroller{
-   position:absolute;
-   bottom:0;
-   width:20%;
-   height:20px; 
-   left: 50%
-}
-
 #slider{
   -webkit-appearance: none;  /* Override default CSS styles */
   appearance: none;
