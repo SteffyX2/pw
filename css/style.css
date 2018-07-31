@@ -147,11 +147,16 @@ transform: rotate(360deg);
   appearance: none;
   opacity: 0.3;
   -webkit-transition: 1.3s; /* 0.2 seconds transition on hover */
-   transition: opacity 1.3s;
+   transition: 1.2s;
 }
 
 #slider:hover{
+-webkit-transition: 1s linear;
+-moz-transition: 1s -moz-linear;
+-o-transition: 1s -o-linear;
+transition: 1s linear;
 opacity: 0.7;
+filter: blur(1px) brightness(100%)   drop-shadow(1px 1px 3px beige);
 }
 
 h1 {
