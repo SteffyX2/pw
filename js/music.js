@@ -9,31 +9,21 @@
 			document.getElementById("player").play();
 			var unmute = document.getElementById("player");
 			var i = 0;
-			var j = 0;
 			document.getElementById("player").volume = 0;
 			document.getElementById("prev").addEventListener('click',prevf);
 			function prevf(){
-				if(i==0 && j==1)
-				{
-					i=videoCount-2;
-					j=0;
-				}
-				else if(i==0)
+				if(i==0)
 					i=videoCount-1;
-				else if(j==0)
+				else
 					i--;
 				document.getElementById("player").setAttribute("src",videoSource[i]);
 				document.getElementById("player").play();
-				
 				}
 			document.getElementById("next").addEventListener('click',nextf);
 			function nextf(){
-				if(i>=videoCount-1 || j==1)
-				{
+				if(i>=videoCount-1)
 					i=0;
-					j=0;
-				}
-				else if(i<videoCount-1 && j==0)
+				else
 					i++;	
 				document.getElementById("player").setAttribute("src",videoSource[i]);
 				document.getElementById("player").play();		
@@ -45,7 +35,6 @@
 				{
 					document.getElementById("player").setAttribute("src",videoSource[0]);
 					document.getElementById("player").play();
-					j=1;
 					i=0;
 				}
 				else
@@ -53,6 +42,5 @@
 					i++;
 					document.getElementById("player").setAttribute("src",videoSource[i]);
 					document.getElementById("player").play();
-					j=0;
 				}  	
 			}
