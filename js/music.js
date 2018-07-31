@@ -46,7 +46,7 @@
 					document.getElementById("player").setAttribute("src",videoSource[0]);
 					document.getElementById("player").play();
 					j=1;
-					i=1;
+					i=0;
 				}
 				else
 				{
