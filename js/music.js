@@ -17,6 +17,18 @@
 			else
 				unmute.muted = true;
 			}
+			document.getElementById("mute").addEventListener('click',changef);
+			function changef(){
+			var image = document.getElementById('mute');
+    			if (image.src.match("unmute")) 
+			{
+    			    image.src = "/css/files/mute.png";
+   		 	} 
+			else 
+			  {
+       				image.src = "/css/files/unmute.png";
+  			  }
+			}
 			document.getElementById("prev").addEventListener('click',prevf);
 			function prevf(){
 				if(i==0)
