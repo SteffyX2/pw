@@ -20,7 +20,7 @@ text-shadow: 0px 0px 30px white,0px 0px 30px white,0px 0px 30px white,0px 0px 10
   border: 9px solid #e0d9d9;
   border-style: double;
   border-radius: 100%;
-  filter: blur(1px) brightness(100%)   drop-shadow(1px 1px 6px beige);
+  filter: blur(1px) brightness(100%)   drop-shadow(1px 1px 3px beige);
   opacity: 0.7;
 }
 
@@ -45,7 +45,7 @@ opacity: 1;
   border: 9px solid #e0d9d9;
   border-style: double;
   border-radius: 100%;
-  filter: blur(1px) brightness(100%)   drop-shadow(1px 1px 6px beige);
+  filter: blur(1px) brightness(100%)   drop-shadow(1px 1px 3px beige);
   opacity: 0.7;
 }
 
