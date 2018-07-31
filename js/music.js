@@ -43,10 +43,10 @@
 			{
 				if(i == (videoCount-1))
 				{
-					document.getElementById("player").setAttribute("src",videoSource[i]);
+					document.getElementById("player").setAttribute("src",videoSource[0]);
 					document.getElementById("player").play();
 					j=1;
-					i=0;
+					i=1;
 				}
 				else
 				{
