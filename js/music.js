@@ -1,9 +1,12 @@
 			var videoSource = new Array();
-			videoSource[0]="css/files/same.mp4";
-			videoSource[1]="css/files/steppa.mp4";
-			videoSource[2]="css/files/lostit.mp4";
-			videoSource[3]="css/files/dejavu.mp4";	
-			videoSource[4]="css/files/switch.mp4";
+			videoSource[0]="css/files/lord.mp4";
+			videoSource[1]="css/files/vade.mp4";
+			videoSource[2]="css/files/warn.mp4";
+			videoSource[3]="css/files/same.mp4";
+			videoSource[4]="css/files/steppa.mp4";
+			videoSource[5]="css/files/lostit.mp4";
+			videoSource[6]="css/files/dejavu.mp4";	
+			videoSource[7]="css/files/switch.mp4";
 			var videoCount = videoSource.length;
 			document.getElementById("player").setAttribute("src",videoSource[0]);
 			document.getElementById("player").play();
