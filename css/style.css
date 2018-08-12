@@ -1034,7 +1034,6 @@ opacity: 1;}
 }
 .figure {
   display: block;
-  z-index: 1;
   width: 0;
   height: 0;
   right: 46.4%;
