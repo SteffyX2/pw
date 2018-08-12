@@ -1067,19 +1067,18 @@ a.switcher:before {
 }
 .figure {
   display: block;
-  position: absolute;
   z-index: 1;
   width: 0;
   height: 0;
-  top: 0;
   right: 0;
-  bottom: 0;
   left: 0;
   margin: auto;
   border-top: 200px solid #fff;
   border-right: 100px solid transparent;
   border-left: 100px solid transparent;
   border-bottom: 0 solid transparent;
+  top: 0;
+  position: absolute;
 }
 .figure:before {
   display: block;
@@ -1096,25 +1095,8 @@ a.switcher:before {
   border-left: 90px solid transparent;
   border-bottom: 0 solid transparent;
 }
-.figure-mask {
-  display: block;
-  position: absolute;
-  z-index: 99;
-  width: 0;
-  height: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  border-top: 200px solid transparent;
-  border-right: 100px solid #111;
-  border-left: 100px solid #111;
-  border-bottom: 0 solid transparent;
-}
 .clock {
   display: block;
-  position: absolute;
   z-index: 9;
   width: 720px;
   height: 128px;
@@ -1125,6 +1107,7 @@ a.switcher:before {
   left: 0;
   margin: auto;
   cursor: default;
+  top: 0;
 }
 .clock span {
   display: block;
