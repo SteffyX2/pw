@@ -1066,14 +1066,13 @@ a.switcher:before {
   z-index: 1;
   width: 0;
   height: 0;
-  right: 0;
-  left: 0;
+  right: 43.5%;
   margin: auto;
   border-top: 200px solid #fff;
   border-right: 100px solid transparent;
   border-left: 100px solid transparent;
   border-bottom: 0 solid transparent;
-  top: 0;
+  top: 2%;
   position: absolute;
 }
 .figure:before {
@@ -1094,8 +1093,8 @@ a.switcher:before {
 .clock {
   display: block;
   z-index: 9;
-  width: 720px;
-  height: 128px;
+  width: 360px;
+  height: 64px;
   text-align: center;
   top: 0;
   right: 0;
@@ -1108,7 +1107,7 @@ a.switcher:before {
 .clock span {
   display: block;
   position: relative;
-  font-size: 128px;
+  font-size: 64px;
   line-height: 1;
 }
 .clock.is-off {
@@ -1150,8 +1149,8 @@ a.switcher:before {
   color: #fff;
   background: #111;
   overflow: hidden;
-  width: 720px;
-  height: 128px;
+  width: 360px;
+  height: 64px;
   clip: rect(0, 900px, 0, 0);
 }
 .glitch .clock span:before {
