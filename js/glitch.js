@@ -2,7 +2,7 @@ let windowW = window.innerWidth;
 let windowH = window.innerHeight;
 let isLoaded = false;
 let glitch;
-let imgSrc = getElementById("steam");
+let imgSrc = document.getElementById("steam");
 
 function setup() {
     background(0);
