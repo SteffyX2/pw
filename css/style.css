@@ -1027,35 +1027,6 @@ opacity: 0.99;}
 .text.step64{
 opacity: 1;}
 
-a.switcher {
-  display: block;
-  position: fixed;
-  text-decoration: none;
-  z-index: 999999999999;
-  right: 20px;
-  bottom: 20px;
-  width: 16px;
-  height: 16px;
-  background: transparent;
-  border: 2px solid #fff;
-  border-radius: 50%;
-  opacity: 0.15;
-  transition: opacity 0.15s;
-}
-a.switcher:hover {
-  opacity: 1;
-}
-a.switcher:before {
-  display: block;
-  content: '';
-  position: absolute;
-  border-radius: 4px;
-  width: 2px;
-  height: 5px;
-  background: #fff;
-  top: 0;
-  left: 5px;
-}
 .screen {
   font-family: 'Lato', sans-serif;
   color: #fff;
@@ -1066,13 +1037,13 @@ a.switcher:before {
   z-index: 1;
   width: 0;
   height: 0;
-  right: 43.5%;
+  right: 47%;
   margin: auto;
-  border-top: 200px solid #fff;
-  border-right: 100px solid transparent;
-  border-left: 100px solid transparent;
+  border-top: 10px solid #fff;
+  border-right: 50px solid transparent;
+  border-left: 50px solid transparent;
   border-bottom: 0 solid transparent;
-  top: 2%;
+  top: 0.4%;
   position: absolute;
 }
 .figure:before {
@@ -1082,12 +1053,12 @@ a.switcher:before {
   z-index: 99;
   width: 0;
   height: 0;
-  top: -194px;
-  left: -90px;
+  top: -97px;
+  left: -45px;
   margin: auto;
-  border-top: 180px solid #111;
-  border-right: 90px solid transparent;
-  border-left: 90px solid transparent;
+  border-top: 90px solid #111;
+  border-right: 45px solid transparent;
+  border-left: 45px solid transparent;
   border-bottom: 0 solid transparent;
 }
 .clock {
