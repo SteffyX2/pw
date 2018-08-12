@@ -1065,8 +1065,8 @@ opacity: 1;}
 .clock {
   display: block;
   z-index: 9;
-  width: 360px;
-  height: 64px;
+  width: 315px;
+  height: 56px;
   text-align: center;
   top: 0;
   right: 0;
@@ -1083,7 +1083,7 @@ opacity: 1;}
 .clock span {
   display: block;
   position: relative;
-  font-size: 64px;
+  font-size: 56px;
   line-height: 1;
 }
 .clock.is-off {
@@ -1125,8 +1125,8 @@ opacity: 1;}
   color: #fff;
   background: #111;
   overflow: hidden;
-  width: 360px;
-  height: 64px;
+  width: 315px;
+  height: 56px;
   clip: rect(0, 900px, 0, 0);
 }
 .glitch .clock span:before {
