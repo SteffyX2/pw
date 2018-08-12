@@ -44,7 +44,10 @@
 var windowH = window.innerHeight;
 var isLoaded = false;
 var glitch = void 0;
-var imgSrc = 'data:image/png;base64,'+
+var imgSrc = document.createElement("img");
+ 
+imgSrc.src = "css/files/steam.png";
+/* var imgSrc = 'data:image/png;base64,'+
     'iVBORw0KGgoAAAANSUhEUgAAAhgAAAKBCAYAAAAV7dKbAAAgAElEQVR4nOS9a5fkOJIlZgA9IrOy'+
     'qqd7es7Z0Wr1k3X0Rb9RK2klbXdXvuLhJHQA2OOaAaTTIyOr50isigwPJwkCIGB27ZrBkP7X//l/'+
     'KaVstK4rresrvV6vtF5f6Vp/r2v7XX9eX57p+emFXl5e6PW1nu/X1u+enuq5J3p5fqX1ulI9UkpU'+
@@ -5048,7 +5051,7 @@ var imgSrc = 'data:image/png;base64,'+
     'Akv+MHiPANvPN+6jdFo4ZYzPmVS7c3ahd/Hq+Xt5vCSDXkCBK0A3h8ZySGehwqYYzpmTt12nYGLK'+
     '0hUZA6edMEOTpCTDekK9mWZLSfPPxFUksisUswiQNdM8a3gO8/39BAum2RdO3RcSBp84dQ3V2kjU'+
     'kHaHHOc9hMaNGuyUEOz0PUEc6Cm7wmmh6IvR7w/rMYYhqPDfh/TTBjj3c5/TbX3r9m7v8rvP822M'+
-    'S4P/BYXSMjtlmlLAAAAAAElFTkSuQmCC';
+    'S4P/BYXSMjtlmlLAAAAAAElFTkSuQmCC'; */
       
 function setup() {
     background(0);
