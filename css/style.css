@@ -1027,30 +1027,10 @@ opacity: 0.99;}
 .text.step64{
 opacity: 1;}
 
-@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
-*,
-*:before,
-*:after {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  box-sizing: border-box;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-}
-html,
 body {
-  height: 100%;
-}
-body {
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
   background: #111;
-  color: #fff;
 }
+
 a.switcher {
   display: block;
   position: fixed;
