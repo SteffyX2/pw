@@ -1123,7 +1123,7 @@ opacity: 1;}
   position: absolute;
   top: 0;
   color: #fff;
-  background: #111;
+  background: transparent;
   overflow: hidden;
   width: 315px;
   height: 56px;
