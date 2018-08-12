@@ -1045,6 +1045,7 @@ opacity: 1;}
   border-bottom: 0 solid transparent;
   top: 0.4%;
   position: absolute;
+  filter: blur(2px) brightness(100%)   drop-shadow(1px 1px 9px beige);
 }
 .figure:before {
   display: block;
@@ -1077,7 +1078,7 @@ opacity: 1;}
   -webkit-text-stroke-width: 0px;
   -webkit-text-stroke-color: black;
   color: white;
-  text-shadow: 0px 0px 5px white,0px 0px 5px white,0px 0px 5px white,0px 0px 10px #553300,0px 0px 10px #553300;
+  text-shadow: 0px 0px 9px white,0px 0px 9px white,0px 0px 9px white,0px 0px 10px #553300,0px 0px 10px #553300;
 }
 .clock span {
   display: block;
@@ -1130,12 +1131,18 @@ opacity: 1;}
 }
 .glitch .clock span:before {
   left: -2px;
-  text-shadow: 2px 0 #00f;
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: black;
+  color: white;
+  text-shadow: 0px 0px 9px white,0px 0px 9px white,0px 0px 9px white,0px 0px 10px #553300,0px 0px 10px #553300;
   animation: c2 1s infinite linear alternate-reverse;
 }
 .glitch .clock span:after {
   left: 3px;
-  text-shadow: -2px 0 #f00;
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: black;
+  color: white;
+  text-shadow: 0px 0px 9px white,0px 0px 9px white,0px 0px 9px white,0px 0px 10px #553300,0px 0px 10px #553300;
   animation: c1 2s infinite linear alternate-reverse;
 }
 @-webkit-keyframes is-off {
