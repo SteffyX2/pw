@@ -13,6 +13,42 @@
 	
 	<body>
 		<div class="noselect">
+<div class="screen glitch">
+  <div class="clock"><span class="time" data-time="xx : xx : xx">xx : xx : xx</span></div>
+  <div class="figure"></div>
+</div>
+<script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-41c52890748cd7143004e05d3c5f786c66b19939c4500ce446314d1748483e13.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>$(document).ready(function () {
+
+  function second_passed() {
+    $('.clock').removeClass('is-off');
+  }
+  setTimeout(second_passed, 2000);
+
+  $('.switcher').on('click', function (e) {
+    e.preventDefault();
+    $('.screen').toggleClass('glitch');
+  });
+
+
+  var newDate = new Date();
+  newDate.setDate(newDate.getDate());
+
+  setInterval(function () {
+
+    var hours = new Date().getHours();
+    var seconds = new Date().getSeconds();
+    var minutes = new Date().getMinutes();
+
+    var realTime = (hours < 10 ? '0' : '') + hours + ' : ' + (minutes < 10 ? '0' : '') + minutes + ' : ' + (seconds < 10 ? '0' : '') + seconds;
+
+    $('.time').html(realTime);
+    $('.time').attr('data-time', realTime);
+
+  }, 1000);
+
+});
+</script>
 			<div class="container">
 				<center>
 					<h1 class="text step1">21000</h1>
@@ -41,7 +77,7 @@
 		<!-- TEXT/TITLE SCRAMBLE -->
 		<script charset="utf-8" src="js/textscramble.js"></script> 
 		<script src="js/title.js"></script>
-		</div>
-	</body>
-
+</div>
+</body>
 </html>
+
