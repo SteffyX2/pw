@@ -5,8 +5,6 @@ $secondaryColor: #333;
 $steps: 20;
 
 body {
-    background-color: $secondaryColor;
-    padding: 100px;
 }
 
 .glitch {
