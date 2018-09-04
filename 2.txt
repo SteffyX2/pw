@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int z,i,max,min;
+    printf("Unesite duzinu niza (z<=50):");
+    do{
+    scanf("%d", &z);
+    }while(z>50);
+    int niz[z];;
+    for(i=0;i<z;i++)
+    {
+        printf("\nUnesite %d. broj:", i+1);
+        scanf("%d", &niz[i]);
+    }
+    max=niz[0];
+    min=max;
+    for(i=0;i<z;i++)
+    {
+        if(niz[i]>max)
+            max=niz[i];
+        if(niz[i]<min)
+            min=niz[i];
+    }
+
+    printf("\n Maximum je:%d \n Minimum je:%d",max,min);
+}
+
