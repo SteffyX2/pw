@@ -1,0 +1,46 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+    int n,i,j=0,m;
+    printf("Unesite vrednosti m i n(m && n<=50):");
+    do{
+    scanf("%d%d", &m, &n);
+    }while((m && n)>50);
+    int a[n],b[n],c[n];
+    for(i=0;i<m;i++)
+    {
+        printf("\nUnesite %d. broj niza a:", i+1);
+        scanf("%d", &a[i]);
+    }
+        for(i=0;i<n;i++)
+    {
+        printf("\nUnesite %d. broj niza b:", i+1);
+        scanf("%d", &b[i]);
+    }
+    for(i=0;i<m;i++)
+    {
+        if(a[i]%2==0)
+        {
+            c[j]=a[i];
+            j++;
+        }
+    }
+    for(i=0;i<n;i++)
+    {
+        if(b[i]%2==0)
+        {
+            c[j]=b[i];
+            j++;
+        }
+    }
+    printf("\n\n\n");
+    for(i=0;i<n;i++)
+        printf("\n %d. clan niza a: %d",i+1, a[i]);
+            printf("\n\n\n");
+    for(i=0;i<n;i++)
+        printf("\n %d. clan niza b: %d",i+1, b[i]);
+            printf("\n\n\n");
+    for(i=0;i<j;i++)
+        printf("\n %d. clan niza c: %d",i+1, c[i]);
+}
