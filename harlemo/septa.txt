@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int kvadrat_kub(int n, int m)
+{
+    int i,z=0;
+    for(i=n;i<=m;i++)
+    {
+        z+=(n*n)+(n*n*n);
+        n++;
+    }
+    printf("\nRezultat je: %d", z);
+}
+
+int main()
+{
+    int n,m;
+    printf("Unesite n i m:");
+    scanf("%d%d", &n, &m);
+    kvadrat_kub(n,m);
+}
