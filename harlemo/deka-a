@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int stepen(int n, int j)
+{
+    j*=2;
+    n--;
+    if(n==0)
+        printf("\nResenje:%d",j);
+    if(n!=0)
+       return stepen(n,j);
+}
+
+int main()
+{
+    int n,j=1;
+    printf("Unesite n:");
+    scanf("%d",&n);
+    stepen(n,j);
+}
