@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+float a,b,c,x1,x2,d;
+
+float JednoRealno(float a, float b, float c, float d)
+{
+    return (-b+sqrt(d))/(2*a);
+}
+
+float DvaRealna(float a, float b, float c, float d)
+{
+    x1= (-b+sqrt(d))/(2*a);
+    x2= (-b-sqrt(d))/(2*a);
+}
+
+void KompleksnoKonjugovana()
+{
+    printf("\n x1=%f+j%f, x2=%f-j%f", (-b)/(2*a), sqrt(-d)/(2*a), (-b)/(2*a), sqrt(-d)/(2*a));
+}
+
+int main()
+{
+    printf("Unesite a,b,c:");
+    scanf("%f%f%f", &a, &b, &c);
+    d=b*b-4*a*c;
+    if(d==0)
+    {
+        x1=JednoRealno(a,b,c,d);
+        printf("\nx1=x2=%f", x1);
+    }
+    else if(d>0)
+    {
+        DvaRealna(a,b,c,d);
+        DvaRealna(a,b,c,d);
+        printf("\nx1=%f, x2=%f",x1 ,x2);
+    }
+    else
+        KompleksnoKonjugovana();
+}
+
