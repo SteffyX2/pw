@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void poj(int n, int j, int c)
+{
+    while(n!=0)
+    {
+        if(c==(n%10))
+            j++;
+            n/=10;
+    };
+    if(j>0)
+        printf("\nPojavljuje se:%d puta", j);
+    else
+        printf("\nNe pojavljuje se.");
+}
+
+int main()
+{
+    int n,c,j=0;
+    printf("Unesite broj i cifru:");
+    scanf("%d%d",&n,&c);
+    poj(n,j,c);
+}
