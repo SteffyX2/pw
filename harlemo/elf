@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void funkc(int niz[], int n)
+{
+    int i,j=1,g=1;
+    for(i=1;i<n;i++)
+    {
+        if(niz[i]==niz[i-1])
+            j++;
+        else
+            j=1;
+        if(g<j)
+        {
+            g=j;
+        }
+    }
+    printf("\nNajduza serija je:%d",g);
+}
+
+int main()
+{
+    int n,i;
+    printf("Unesite n:");
+    scanf("%d",&n);
+    int niz[n];
+    printf("\nUnesite %d elemenata niza.",n);
+    for(i=0;i<n;i++)
+        scanf("%d",&niz[i]);
+    funkc(niz,n);
+}
