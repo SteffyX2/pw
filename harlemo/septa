@@ -1,27 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
- int kvadrat(int n)
+ int kvadrat_kub(int n, int* kv, int* kb)
 {
-    int z;
-    z=n*n;
-    printf("\nBroj:%d Kvadrat: %d,",n,z);
-}
-
- int kub(int n)
-{
-    int z;
-    z=n*n*n;
-    printf(" Kub: %d", z);
+    *kv=n*n;
+    *kb=n*n*n;
 }
 
  int main()
 {
-    int n,m,i;
+    int n,m,i,kv,kb;
     printf("Unesite n i m:");
     scanf("%d%d", &n, &m);
     for(i=n;i<=m;i++)
     {
-    kvadrat(i);
-    kub(i);
+    kvadrat_kub(i,&kv,&kb);
+    printf("\nBroj:%d, Kvadrat:%d, Kub:%d, Suma:%d",i,kv,kb,kv+kb);
     }
 }
