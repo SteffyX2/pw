@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int parne(int n, int j)
+{
+    int cifra;
+    cifra=n%10;
+    if(cifra%2==0)
+        j++;
+    n/=10;
+    if(n==0)
+        printf("\nParnih:%d",j);
+    if(n!=0)
+       return parne(n,j);
+}
+
+int main()
+{
+    int n,j=0;
+    printf("Unesite n:");
+    scanf("%d",&n);
+    parne(n,j);
+}
