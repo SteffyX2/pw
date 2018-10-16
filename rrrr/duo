@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void unos(int a[], int n) {
+int i;
+for(i=0;i<n;i++){
+    printf("a[%d]= ", i);
+    scanf("%d", &a[i]);
+    }
+}
+
+void prikaz(int a[],int n){
+int i;
+for(i=0;i<n;i++)
+    printf("a[%d]=%d\n",i,a[i]);
+}
+
+int minmax(int x[], int n){
+    int j=0,i;
+    for(i=0;i<n;i++)
+        if(x[i]!=x[i+1])
+            j++;
+    return j;
+}
+
+int main()
+{
+    int n,a[31],br;
+    do{
+    printf("Unesite n(<31):");
+    scanf("%d", &n);
+    }while(n>30);
+    unos(a,n);
+    prikaz(a,n);
+    br = minmax(a,n);
+    printf("\n\nBroj promena:%d",br);
+}
