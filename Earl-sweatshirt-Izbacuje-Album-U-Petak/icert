@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int n,i,j,x,x1,y,y1,temp;
+    printf("Unesite n:");
+    scanf("%d", &n);
+    int a[n][n];
+    printf("\nElementi matrice.");
+    for(i=0;i<n;i++)
+    for(j=0;j<n;j++){
+        printf("\nA(%d,%d)",i,j);
+        scanf("%d",&a[i][j]);
+                    }
+    for(i=0;i<n;i++)
+    for(j=0;j<n;j++){
+
+        if(i==j)
+            a[i][j]*=3;
+    }
+    printf("\nKoje kolone treba zameniti?:");
+    scanf("%d%d",&x,&y);
+    for(i=0;i<n;i++)
+    for(j=0;j<n;j++){
+        x1=x-1;
+        y1=y-1;
+        if(j==1)
+        {
+            temp=a[i][j];
+            a[i][j]=a[i][2];
+            a[i][2]=temp;
+        }
+    }
+    for(i=0;i<n;i++){
+    for(j=0;j<n;j++){
+        printf("%d\t",a[i][j]);
+                    }
+        printf("\n"); }
+}
