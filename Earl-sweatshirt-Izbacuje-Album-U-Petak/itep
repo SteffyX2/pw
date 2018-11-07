@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int n,i,j,x,z=0;
+    printf("Unesite n:");
+    scanf("%d", &n);
+    int a[n][n];
+    printf("\nElementi matrice.");
+    for(i=0;i<n;i++)
+    for(j=0;j<n;j++){
+        printf("\nA(%d,%d)",i,j);
+        scanf("%d",&a[i][j]);
+                    }
+   for(i=0;i<n;i++){
+    for(j=0;j<n;j++){
+        printf("%d\t",a[i][j]);
+                    }
+        printf("\n"); }
+    printf("\nUnesi broj:");
+    scanf("%d",&x);
+    printf("\nPrikazuje se na pozicijama");
+    for(i=0;i<n;i++)
+    for(j=0;j<n;j++){
+        if(a[i][j]<=x)
+
+        if(a[i][j]>x)
+        {
+        printf("\n(%d,%d)",i,j);
+        z++;
+        }
+    }
+    printf("\nIma ih:%d",z);
+}
