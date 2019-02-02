@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="lightbox2-master/dist/css/lightbox.css" rel="stylesheet">
+<style type="text/css">
+	
+	li {
+    list-style: none;
+
+}
+div#images_flex {
+display: flex!important;
+    justify-content: center!important;
+	    align-items: center;
+}
+.de1, .de2 {
+font-family: Consolas,Menlo,Monaco,"Lucida Console","Liberation Mono","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace,serif;
+}
+#images_flex img {
+position: relative;
+    float: left;
+    width:  130px;
+    height: 130px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+
+}
+.text{    text-align: center;}
+
+		#particle {
+		  background-color: #000;
+		  position:fixed;
+		  top:0;
+		  right:0;
+		  bottom:0;
+		  left:0;
+		  z-index:0; 
+		}
+		#overlay {
+		  position: relative;
+		  width: 750px;
+		  height: auto;
+			background-color: rgba(00, 0, 00, .7);  
+			margin: 0 auto;	
+			padding: 2%;
+			border-radius:5px;
+			font-size:18px;
+			color:#0f0;
+		}
+
+
+.example-image-link {
+    display: inline-block;
+    padding: 2px;
+    margin: 0 0.5rem 1rem 0.5rem;
+    line-height: 0;
+    border-radius: 4px;
+    transition: background-color 0.5s ease-out;
+}
+
+.example-image {
+    width: 7rem;
+    border-radius: 4px;
+}
+.wrapper {
+        background: rgb(114, 118, 125);
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 500;
+    padding: 1px 3px;
+    text-transform: uppercase;
+    vertical-align: middle;	
+}
+
+	</style>
+</head>
+<body>
+<div id="particle"></div>
+<div id="overlay">
+<center><h1>Michael <span class="wrapper">AKA</span> Noob, exit scammed</h1></center>
+<hr>
+<div id="images_flex">
+<a class="example-image-link" href="noob.png" data-lightbox="example-1"><img class="example-image" src="noob.png" alt="Girl looking out people on beach"></a>
+<a class="example-image-link" href="noob2.png" data-lightbox="example-2"><img class="example-image" src="noob2.png" alt="Girl looking out people on beach"></a>
+<a class="example-image-link" href="noob3.png" data-lightbox="example-1"><img class="example-image" src="noob3.png" alt="Girl looking out people on beach"></a>
+<a class="example-image-link" href="noob4.png" data-lightbox="example-1"><img class="example-image" src="noob4.png" alt="Girl looking out people on beach"></a>
+<a class="example-image-link" href="noob5.png" data-lightbox="example-1"><img class="example-image" src="noob5.png" alt="Girl looking out people on beach"></a>
+<a class="example-image-link" href="noob6.png" data-lightbox="example-1"><img class="example-image" src="noob6.png" alt="Girl looking out people on beach"></a>
+</div>
+<ol class="text"><li class="li1"><div class="de1">&nbsp; __________________________________</div></li>
+<li class="li1"><div class="de1">&nbsp;/ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Michael Sizemore &nbsp; &nbsp; &nbsp; &nbsp;\</div></li>
+<li class="li1"><div class="de1">/####################################\</div></li>
+<li class="li1"><div class="de1">+ &nbsp; &nbsp;DOX Dropped By Mane & JD &nbsp; &nbsp; &nbsp; &nbsp;#</div></li>
+<li class="li2"><div class="de2">+ &nbsp; &nbsp;Reason: Exitscammed 9999th time #</div></li>
+<li class="li1"><div class="de1">+ &nbsp; &nbsp;Date Dropped: &nbsp;1/2/2019 &nbsp; &nbsp; &nbsp; &nbsp; #</div></li>
+<li class="li1"><div class="de1">\####################################/</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp;</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; Personal Info &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div></li>
+<li class="li2"><div class="de2">/####################################\</div></li>
+<li class="li1"><div class="de1">+ Full Name: Michael Sizemore &nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li1"><div class="de1">+ Age: 22 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li1"><div class="de1">\####################################/</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp;</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; Social Info &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div></li>
+<li class="li1"><div class="de1">/####################################\</div></li>
+<li class="li1"><div class="de1">+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Google plus&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li1"><div class="de1">+ askfm/michaelsizewhore &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +</div></li>
+<li class="li1"><div class="de1">+------------------------------------+</div></li>
+<li class="li2"><div class="de2">+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Google plus&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li1"><div class="de1">+ google/105297524142280914575&nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li1"><div class="de1">+------------------------------------+</div></li>
+<li class="li1"><div class="de1">+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Youtube&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li1"><div class="de1">+ yt/XpectXtreme&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li2"><div class="de2">+------------------------------------+</div></li>
+<li class="li1"><div class="de1">+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Skype&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li1"><div class="de1">+ skype/live:michaelmothersucka &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li1"><div class="de1">+------------------------------------+</div></li>
+<li class="li1"><div class="de1">+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Twitter&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li2"><div class="de2">+ twitter/michaelsiz3 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li1"><div class="de1">+------------------------------------+</div></li>
+<li class="li1"><div class="de1">+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Instagram &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +</div></li>
+<li class="li1"><div class="de1">+ instagram/michaelsiz3 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li1"><div class="de1">+------------------------------------+</div></li>
+<li class="li2"><div class="de2">+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Facebook &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li1"><div class="de1">+ facebook/546456455464fgfddfgfgd &nbsp; &nbsp;+</div></li>
+<li class="li1"><div class="de1">+ facebook/michael.sizemore.56 &nbsp; &nbsp; &nbsp; +</div></li>
+<li class="li1"><div class="de1">+ facebook/michael.sizemore.50159 &nbsp; &nbsp;+</div></li>
+<li class="li1"><div class="de1">\####################################/</div></li>
+<li class="li2"><div class="de2">&nbsp;</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; Family Info &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div></li>
+<li class="li1"><div class="de1">/####################################\</div></li>
+<li class="li1"><div class="de1">+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Mother &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +</div></li>
+<li class="li1"><div class="de1">+ Full Name: Debra Sizemore &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li2"><div class="de2">+ Age: 50s &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +</div></li>
+<li class="li1"><div class="de1">+ Phone Number: N/A &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li1"><div class="de1">+ Work: N/A &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li1"><div class="de1">+ Street: N/A &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li1"><div class="de1">+ City: Florence&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li2"><div class="de2">+ State: Kentucky &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li1"><div class="de1">+ Zip Code: N/A &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li1"><div class="de1">+------------------------------------+</div></li>
+<li class="li1"><div class="de1">+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Father &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +</div></li>
+<li class="li1"><div class="de1">+ Full Name: Michael M Castle &nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li2"><div class="de2">+ Age: 60s &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +</div></li>
+<li class="li1"><div class="de1">+ Phone Number: (606) 297-7515 &nbsp; &nbsp; &nbsp; +</div></li>
+<li class="li1"><div class="de1">+ Street: 18 Forest Pointe Ln &nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li1"><div class="de1">+ City: Oil Springs &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li1"><div class="de1">+ State: Kentucky &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li2"><div class="de2">+ Zip Code: 41238 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li1"><div class="de1">\####################################/</div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; Location Info &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div></li>
+<li class="li1"><div class="de1">/####################################\</div></li>
+<li class="li2"><div class="de2">+ Street: 169 M Vanonover Branch &nbsp; &nbsp; +</div></li>
+<li class="li1"><div class="de1">+ City: Paintsville &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li1"><div class="de1">+ State: Kentucky &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li1"><div class="de1">+ Zip Code: 41240 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+</div></li>
+<li class="li1"><div class="de1">\####################################/</div></li>
+</ol>
+</div>
+<script src="lightbox2-master/dist/js/lightbox-plus-jquery.js"></script>
+<script src="lightbox2-master/dist/js/lightbox.js"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script type="text/javascript">
+	var options = {"particles":{"number":{"value":99,"density":{"enable":true,"value_area":552.4033491425909}},"color":{"value":"#0f0"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":3},"image":{"src":"img/github.svg","width":70,"height":100}},"opacity":{"value":1,"random":true,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":2,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":false,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":1.5782952832645452,"direction":"none","random":true,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"repulse"},"onclick":{"enable":true,"mode":"repulse"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":false};
+particlesJS("particle", options);
+</script>
+</body>
+</html>
