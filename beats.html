@@ -9,10 +9,10 @@
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Quicksand" rel="stylesheet" />
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
 		<link rel="stylesheet" href="css/animate.css"/>
-	</head>
-	
-	<body>
-		<div class="noselect">
+</head>
+
+<body>
+
 <div class="screen glitch">
 <div class="figure"></div>
 <div class="clock"><span class="time" data-time="xx : xx : xx">xx : xx : xx</span></div>
@@ -39,28 +39,266 @@
   }, 1000);
 });
 </script>
-			<div class="container">
-				<center>
-					<h1 class="text step1">21000</h1>
-				</center>
-			</div>
-		<div class="footer"> R e  -  S t r a  -  Ć u   -  J a n e  -  M a r e. </div>
-		<img border="0" src="https://yip.su/1FWAN6"/>			
-					
-		<!-- MP CONTROLLER --> 
-			<div class="mpcontroller">
-			<input id="slider" type="range" min="0" max="100" step="1" value="50" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)" class="range step1"/>
-				<a href="#"><img id="mute" type="image" src="css/files/mute.png"/></a>
-				<a href="#"><img id="next" type="image" src="css/files/next.png"/></a>
-				<a href="#"><img id="prev" type="image" src="css/files/prev.png"/></a>
-			</div>
-		<!-- MUSIC -->
-		<video id="player" muted></video>
-		<script src="js/music.js"></script>
-		
-		<!-- TEXT/TITLE SCRAMBLE -->
-		<script charset="utf-8" src="js/textscramble.js"></script> 
-		<script src="js/title.js"></script>
-</div>
+	
+   <script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-41c52890748cd7143004e05d3c5f786c66b19939c4500ce446314d1748483e13.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/p5.min.js"></script>
+
+
+    <script>
+     var _createClass = function () {function defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}return function (Constructor, protoProps, staticProps) {if (protoProps) defineProperties(Constructor.prototype, protoProps);if (staticProps) defineProperties(Constructor, staticProps);return Constructor;};}();function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}
+     var windowW = window.innerWidth;
+var windowH = window.innerHeight;
+var isLoaded = false;
+var glitch = void 0;
+var imgSrc = 'data:image/jpeg;base64,'+
+    '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';
+      
+function setup() {
+    background(0);
+    createCanvas(windowW, windowH);
+    loadImage(imgSrc, function (img) {
+        glitch = new Glitch(img);
+        isLoaded = true;
+    });
+}
+function draw() {
+    clear();
+    background(0);
+    if (isLoaded) {
+        glitch.show();
+    }
+    // fill(255, 255, 255);
+    // textSize(14);
+    // text('FPS: ' + floor(frameRate()), 20, 30);
+}var
+Glitch = function () {
+    function Glitch(img) {_classCallCheck(this, Glitch);
+        this.channelLen = 4;
+        this.imgOrigin = img;
+        this.imgOrigin.loadPixels();
+        this.copyData = [];
+        this.flowLineImgs = [];
+        this.shiftLineImgs = [];
+        this.shiftRGBs = [];
+        this.scatImgs = [];
+        this.throughFlag = true;
+        this.copyData = new Uint8ClampedArray(this.imgOrigin.pixels);
+        // flow line
+        for (var i = 0; i < 1; i++) {if (window.CP.shouldStopExecution(0)) break;
+            var o = {
+                pixels: null,
+                t1: floor(random(0, 1000)),
+                speed: floor(random(4, 24)),
+                randX: floor(random(24, 80)) };
+            this.flowLineImgs.push(o);
+        }
+        // shift line
+        window.CP.exitedLoop(0);for (var _i = 0; _i < 6; _i++) {if (window.CP.shouldStopExecution(1)) break;
+            var _o = null;
+            this.shiftLineImgs.push(_o);
+        }
+        // shift RGB
+        window.CP.exitedLoop(1);for (var _i2 = 0; _i2 < 1; _i2++) {if (window.CP.shouldStopExecution(2)) break;
+            var _o2 = null;
+            this.shiftRGBs.push(_o2);
+        }
+        // scat imgs
+        window.CP.exitedLoop(2);for (var _i3 = 0; _i3 < 3; _i3++) {if (window.CP.shouldStopExecution(3)) break;
+            var scatImg = {
+                img: null,
+                x: 0,
+                y: 0 };
+            this.scatImgs.push(scatImg);
+        }window.CP.exitedLoop(3);
+    }_createClass(Glitch, [{ key: 'replaceData', value: function replaceData(
+        destImg, srcPixels) {
+            for (var y = 0; y < destImg.height; y++) {if (window.CP.shouldStopExecution(4)) break;
+                for (var x = 0; x < destImg.width; x++) {if (window.CP.shouldStopExecution(5)) break;
+                    var r = void 0,g = void 0,b = void 0,a = void 0;
+                    var index = void 0;
+                    index = (y * destImg.width + x) * this.channelLen;
+                    r = index;
+                    g = index + 1;
+                    b = index + 2;
+                    a = index + 3;
+                    destImg.pixels[r] = srcPixels[r];
+                    destImg.pixels[g] = srcPixels[g];
+                    destImg.pixels[b] = srcPixels[b];
+                    destImg.pixels[a] = srcPixels[a];
+                }window.CP.exitedLoop(5);
+            }window.CP.exitedLoop(4);
+            destImg.updatePixels();
+        } }, { key: 'flowLine', value: function flowLine(
+        srcImg, obj) {
+            var destPixels = void 0,
+            tempY = void 0;
+            destPixels = new Uint8ClampedArray(srcImg.pixels);
+            obj.t1 %= srcImg.height;
+            obj.t1 += obj.speed;
+            //tempY = floor(noise(obj.t1) * srcImg.height);
+            tempY = floor(obj.t1);
+            for (var y = 0; y < srcImg.height; y++) {if (window.CP.shouldStopExecution(6)) break;
+                if (tempY === y) {
+                    for (var x = 0; x < srcImg.width; x++) {if (window.CP.shouldStopExecution(7)) break;
+                        var r = void 0,g = void 0,b = void 0,a = void 0;
+                        var index = void 0;
+                        index = (y * srcImg.width + x) * this.channelLen;
+                        r = index;
+                        g = index + 1;
+                        b = index + 2;
+                        a = index + 3;
+                        destPixels[r] = srcImg.pixels[r] + obj.randX;
+                        destPixels[g] = srcImg.pixels[g] + obj.randX;
+                        destPixels[b] = srcImg.pixels[b] + obj.randX;
+                        destPixels[a] = srcImg.pixels[a];
+                    }window.CP.exitedLoop(7);
+                }
+            }window.CP.exitedLoop(6);
+            return destPixels;
+        } }, { key: 'shiftLine', value: function shiftLine(
+        srcImg) {
+            var offsetX = void 0;
+            var rangeMin = void 0,rangeMax = void 0;
+            var destPixels = void 0;
+            var rangeH = void 0;
+            destPixels = new Uint8ClampedArray(srcImg.pixels);
+            rangeH = srcImg.height;
+            rangeMin = floor(random(0, rangeH));
+            rangeMax = rangeMin + floor(random(1, rangeH - rangeMin));
+            offsetX = this.channelLen * floor(random(-40, 40));
+            for (var y = 0; y < srcImg.height; y++) {if (window.CP.shouldStopExecution(8)) break;
+                if (y > rangeMin && y < rangeMax) {
+                    for (var x = 0; x < srcImg.width; x++) {if (window.CP.shouldStopExecution(9)) break;
+                        var r = void 0,g = void 0,b = void 0,a = void 0;
+                        var r2 = void 0,g2 = void 0,b2 = void 0,a2 = void 0;
+                        var index = void 0;
+                        index = (y * srcImg.width + x) * this.channelLen;
+                        r = index;
+                        g = index + 1;
+                        b = index + 2;
+                        a = index + 3;
+                        r2 = r + offsetX;
+                        g2 = g + offsetX;
+                        b2 = b + offsetX;
+                        destPixels[r] = srcImg.pixels[r2];
+                        destPixels[g] = srcImg.pixels[g2];
+                        destPixels[b] = srcImg.pixels[b2];
+                        destPixels[a] = srcImg.pixels[a];
+                    }window.CP.exitedLoop(9);
+                }
+            }window.CP.exitedLoop(8);
+            return destPixels;
+        } }, { key: 'shiftRGB', value: function shiftRGB(
+        srcImg) {
+            var randR = void 0,randG = void 0,randB = void 0;
+            var destPixels = void 0;
+            var range = void 0;
+            range = 16;
+            destPixels = new Uint8ClampedArray(srcImg.pixels);
+            randR = (floor(random(-range, range)) * srcImg.width + floor(random(-range, range))) * this.channelLen;
+            randG = (floor(random(-range, range)) * srcImg.width + floor(random(-range, range))) * this.channelLen;
+            randB = (floor(random(-range, range)) * srcImg.width + floor(random(-range, range))) * this.channelLen;
+            for (var y = 0; y < srcImg.height; y++) {if (window.CP.shouldStopExecution(10)) break;
+                for (var x = 0; x < srcImg.width; x++) {if (window.CP.shouldStopExecution(11)) break;
+                    var r = void 0,g = void 0,b = void 0,a = void 0;
+                    var r2 = void 0,g2 = void 0,b2 = void 0,a2 = void 0;
+                    var index = void 0;
+                    index = (y * srcImg.width + x) * this.channelLen;
+                    r = index;
+                    g = index + 1;
+                    b = index + 2;
+                    a = index + 3;
+                    r2 = (r + randR) % srcImg.pixels.length;
+                    g2 = (g + randG) % srcImg.pixels.length;
+                    b2 = (b + randB) % srcImg.pixels.length;
+                    destPixels[r] = srcImg.pixels[r2];
+                    destPixels[g] = srcImg.pixels[g2];
+                    destPixels[b] = srcImg.pixels[b2];
+                    destPixels[a] = srcImg.pixels[a];
+                }window.CP.exitedLoop(11);
+            }window.CP.exitedLoop(10);
+            return destPixels;
+        } }, { key: 'getRandomRectImg', value: function getRandomRectImg(
+        srcImg) {
+            var startX = void 0;
+            var startY = void 0;
+            var rectW = void 0;
+            var rectH = void 0;
+            var destImg = void 0;
+            startX = floor(random(0, srcImg.width - 30));
+            startY = floor(random(0, srcImg.height - 50));
+            rectW = floor(random(30, srcImg.width - startX));
+            rectH = floor(random(1, 50));
+            destImg = srcImg.get(startX, startY, rectW, rectH);
+            destImg.loadPixels();
+            return destImg;
+        } }, { key: 'show', value: function show()
+        {var _this = this;
+            // restore the original state
+            this.replaceData(this.imgOrigin, this.copyData);
+            // sometimes pass without effect processing
+            var n = floor(random(100));
+            if (n > 75 && this.throughFlag) {
+                this.throughFlag = false;
+                setTimeout(function () {
+                    _this.throughFlag = true;
+                }, floor(random(40, 400)));
+            }
+            if (!this.throughFlag) {
+                push();
+                translate((width - this.imgOrigin.width) / 2, (height - this.imgOrigin.height) / 2);
+                image(this.imgOrigin, 0, 0);
+                pop();
+                return;
+            }
+            // flow line
+            this.flowLineImgs.forEach(function (v, i, arr) {
+                arr[i].pixels = _this.flowLine(_this.imgOrigin, v);
+                if (arr[i].pixels) {
+                    _this.replaceData(_this.imgOrigin, arr[i].pixels);
+                }
+            });
+            // shift line
+            this.shiftLineImgs.forEach(function (v, i, arr) {
+                if (floor(random(100)) > 50) {
+                    arr[i] = _this.shiftLine(_this.imgOrigin);
+                    _this.replaceData(_this.imgOrigin, arr[i]);
+                } else {
+                    if (arr[i]) {
+                        _this.replaceData(_this.imgOrigin, arr[i]);
+                    }
+                }
+            });
+            // shift rgb
+            this.shiftRGBs.forEach(function (v, i, arr) {
+                if (floor(random(100)) > 65) {
+                    arr[i] = _this.shiftRGB(_this.imgOrigin);
+                    _this.replaceData(_this.imgOrigin, arr[i]);
+                }
+            });
+            push();
+            translate((width - this.imgOrigin.width) / 2, (height - this.imgOrigin.height) / 2);
+            image(this.imgOrigin, 0, 0);
+            pop();
+            // scat image
+            this.scatImgs.forEach(function (obj) {
+                push();
+                translate((width - _this.imgOrigin.width) / 2, (height - _this.imgOrigin.height) / 2);
+                if (floor(random(100)) > 80) {
+                    obj.x = floor(random(-_this.imgOrigin.width * 0.3, _this.imgOrigin.width * 0.7));
+                    obj.y = floor(random(-_this.imgOrigin.height * 0.1, _this.imgOrigin.height));
+                    obj.img = _this.getRandomRectImg(_this.imgOrigin);
+                }
+                if (obj.img) {
+                    image(obj.img, obj.x, obj.y);
+                }
+                pop();
+            });
+        } }]);return Glitch;}();
+      //# sourceURL=pen.js
+    </script>
+
 </body>
+
 </html>
