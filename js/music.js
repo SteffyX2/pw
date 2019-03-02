@@ -712,4 +712,4 @@ inputRange.addEventListener('input', function() {
     }
 });
 
-//xx Eric Grucza
+//xx Eric Grucza for gradient
