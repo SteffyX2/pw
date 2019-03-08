@@ -7,8 +7,8 @@
 
 #front{
 transition: 0.2s linear;
-height: 510px;
-width: 510px;
+height: 47.222222222%;
+width: 26.5625%;
 top: 11%;
 position: absolute;
 left: 5%;
@@ -18,8 +18,8 @@ opacity: 0.9;
 
 #back{
 transition: 0.2s linear;
-height: 510px;
-width: 510px;
+height: 47.222222222%;
+width: 26.5625%;
 top: 11%;
 position: absolute;
 left: 68.5%;
