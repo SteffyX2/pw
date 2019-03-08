@@ -14,7 +14,7 @@ message[11] = "MUCHACHO$";
 message[12] = "MUCHACHOS";
 message[13] = "MUCHACHO$";
 message[14] = "MUCHACHOS";
-message[15] = "[21000]";
+message[15] = "21000";
 var reps = 2;
 var speed = 50; var p = message.length;
 var T = "";
