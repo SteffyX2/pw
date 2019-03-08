@@ -27,6 +27,31 @@ filter: blur(1px) brightness(100%) drop-shadow(1px 1px 6px beige);
 opacity: 0.9;
 }
 
+#applemusic{
+transition: 0.2s linear;
+height: 70px;
+width: 70px;
+top: 60.5%;
+position: absolute;
+left: 55%;
+border: 9px solid #e0d9d9;
+border-style: double;
+border-radius: 100%;
+filter: blur(1px) brightness(100%) drop-shadow(1px 1px 6px beige);
+opacity: 0.7;
+}
+
+#applemusic:hover{
+-webkit-transition: 1s linear;
+-moz-transition: 1s -moz-linear;
+-o-transition: 1s -o-linear;
+transition: 1s linear;
+-webkit-filter: blur(3px); /* Safari 6.0 - 9.0 */
+filter: blur(3px) brightness(25%); 
+opacity: 1;   
+transform: rotate(360deg);
+}
+
 #itunes{
 transition: 0.2s linear;
 height: 70px;
