@@ -7,24 +7,24 @@
 
 #front{
 transition: 0.2s linear;
-height: 470px;
-width: 470px;
+height: 510px;
+width: 510px;
 top: 10%;
 position: absolute;
 left: 5%;
 filter: blur(1px) brightness(100%) drop-shadow(1px 1px 6px beige);
-opacity: 0.85;
+opacity: 0.8;
 }
 
 #back{
 transition: 0.2s linear;
-height: 470px;
-width: 470px;
+height: 510px;
+width: 510px;
 top: 10%;
 position: absolute;
 left: 65%;
 filter: blur(1px) brightness(100%) drop-shadow(1px 1px 6px beige);
-opacity: 0.85;
+opacity: 0.8;
 }
 
 #mute{
